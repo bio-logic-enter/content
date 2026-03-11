@@ -1,0 +1,359 @@
+{
+  "schema": "bio-logic-enter/event-index/v1.0",
+  "content_key": "q99.zd27q6.c92bhyf2v.3.001.003.011",
+  "shooting_key": "q99.zd27q6.c92bhyf2v",
+  "segment_id": "D1-S03",
+  "shot_description": "Teleobjektiv-Aufnahme Eisvogel fliegend und Wasservogel schwimmend/tauchend, Stativ, Sony Alpha 7IV 200-600mm",
+  "duration": "01:31:29",
+  "frame_source": "C0410.MP4",
+  "total_events": 17,
+  "summary": {
+    "by_event_type": {
+      "wildlife": 14,
+      "camera_event": 1,
+      "creator_zone": 2
+    },
+    "by_direction": {
+      "unbestimmt": 17
+    },
+    "by_modality": {
+      "visuell": 15,
+      "nicht_bezeugt": 2
+    },
+    "unique_tracked_objects": [
+      "B01",
+      "B02"
+    ],
+    "time_range": {
+      "first_event": "00:00:00",
+      "last_event": "01:30:20"
+    }
+  },
+  "events": [
+    {
+      "event_nr": 1,
+      "timecode": "00:00:00",
+      "event_type": "wildlife",
+      "object_keys": null,
+      "direction": "unbestimmt",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Rechtes Flussbett ist Vegetation entlang am Fluss grobkantig mit großen Steine, Büsche, Bäume und teils heruntergefallenen Ästen. Rechts ca. Bild mitte ein größerer Ast über die Steine liegend mit einem Teil am Wasser. Bildmitte rechts bis links liegen sichtbar oberhalb der Wasseroberfläche im Fluss",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-03_001.png"
+    },
+    {
+      "event_nr": 2,
+      "timecode": "00:00:01",
+      "event_type": "camera_event",
+      "object_keys": null,
+      "direction": "unbestimmt",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Bild leider verwackelt, stabilisiert sich ab ca. 00:02:02",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus"
+    },
+    {
+      "event_nr": 3,
+      "timecode": "00:00:57",
+      "event_type": "wildlife",
+      "object_keys": [
+        "B01"
+      ],
+      "direction": "unbestimmt",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "von Bildmitte rechts fliegt ein kleiner Vogel mit stechend blauen Federkleid ins Bild und fliegt ein kleines Stück flussabwärts ca. 1-2m ober der Wasseroberfläche",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-03_002.png",
+      "notes": "leider unscharf"
+    },
+    {
+      "event_nr": 4,
+      "timecode": "00:02:56",
+      "event_type": "wildlife",
+      "object_keys": [
+        "B01"
+      ],
+      "direction": "unbestimmt",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "kleiner Vogel mit stechend blauen Federkleid bleibt in der Luft an einer Position über dem Wasser schwebend",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-03_003.png",
+      "notes": "leider unscharf"
+    },
+    {
+      "event_nr": 5,
+      "timecode": "00:03:06",
+      "event_type": "wildlife",
+      "object_keys": [
+        "B02"
+      ],
+      "direction": "unbestimmt",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "ein zweiter Wasservogel mit schwarzen Kopf und weissem Körper taucht plötzlich aus dem Wasser auf ca. Bild mitte/mitte wieder an die Oberfläche und schwimmt Richtung rechtes Flussbettufer",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-03_004.png",
+      "notes": "leider unscharf"
+    },
+    {
+      "event_nr": 6,
+      "timecode": "00:03:37",
+      "event_type": "wildlife",
+      "object_keys": [
+        "B01"
+      ],
+      "direction": "unbestimmt",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "kleiner Vogel im stechend blauem Federkleid fliegt ein Stück weiter gerade aus",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-03_005.png",
+      "notes": "leider unscharf"
+    },
+    {
+      "event_nr": 7,
+      "timecode": "00:06:16",
+      "event_type": "wildlife",
+      "object_keys": [
+        "B01"
+      ],
+      "direction": "unbestimmt",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "kleiner Vogel im stechend blauem Federkleid bleibt schwebend an einer Position und fliegt dann senkrecht nach oben aus dem Bild heraus",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-03_006.png",
+      "notes": "ab ca. 00:07:24 fliegt kleiner Vogel im stechend blauem Federkleid schräg rechts steil nach ob und ist ab ca. 00:08:30 aus dem Bild komplett verschwunden, leider unscharf,"
+    },
+    {
+      "event_nr": 8,
+      "timecode": "00:08:37",
+      "event_type": "wildlife",
+      "object_keys": [
+        "B02"
+      ],
+      "direction": "unbestimmt",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Vogel mit dunklen Kopf und weissem Körper taucht immer wieder den Kopf unter Wasser und schwimmt immer nähr an die groben Steine am Flussufer und schwimmt am Ufer entlang Richtung flussabwärts und verschwindet kurz hinter einem Stein",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-03_007.png",
+      "notes": "Wasservogel mit schwarzen Kopf und weissem Körper verschwindet hinter Stein bei ca. 00:46:23 und ist wieder sichtbar bei ca. 00:49:47, leider unscharf"
+    },
+    {
+      "event_nr": 9,
+      "timecode": "00:54:03",
+      "event_type": "wildlife",
+      "object_keys": [
+        "B02"
+      ],
+      "direction": "unbestimmt",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Vogel mit dunklen Kopf und weissem Körper schwimmt wieder Richtung Flussmitte",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-03_008.png",
+      "notes": "schwimmt Richtung Flussmitte bis ca. 00:52:41, leider unscharf"
+    },
+    {
+      "event_nr": 10,
+      "timecode": "00:54:00",
+      "event_type": "wildlife",
+      "object_keys": [
+        "B02"
+      ],
+      "direction": "unbestimmt",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Vogel mit dunklen Kopf und weissem Körper taucht wieder unter Wasser",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "notes": "taucht ab ca. 00:58:15 wieder etwas weiter rechts von der vorherigen sichtbaren Position wieder auf, leider unscharf"
+    },
+    {
+      "event_nr": 11,
+      "timecode": "00:58:08",
+      "event_type": "wildlife",
+      "object_keys": [
+        "B02"
+      ],
+      "direction": "unbestimmt",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Vogel mit dunklen Kopf und weissem Körper taucht wieder weiter rechts auf und schwimmt hinter einem großen Stein am Flussufer und ist nicht mehr sichtbar",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-03_009.png",
+      "notes": "verschwindet hinter einem Stein bei ca. 00:59:11, wieder sichtbar bei ca. 01:04:37, leider unscharf"
+    },
+    {
+      "event_nr": 12,
+      "timecode": "01:05:03",
+      "event_type": "wildlife",
+      "object_keys": [
+        "B02"
+      ],
+      "direction": "unbestimmt",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Vogel mit dunklen Kopf und weissem Körper ist wieder sichtbar und schwimmt wieder Richtung Flussmitte",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-03_010.png",
+      "notes": "bis ca. 01:07:14 und taucht wieder kurz unter Wasser und bei ca. 01:08:37 wieder auf, leider unscharf"
+    },
+    {
+      "event_nr": 13,
+      "timecode": "01:06:24",
+      "event_type": "wildlife",
+      "object_keys": [
+        "B02"
+      ],
+      "direction": "unbestimmt",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Vogel mit dunklen Kopf und weissem Körper taucht nochmal kurz ins Wasser, schwimmt wieder Richtung Flussufer",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-03_011.png",
+      "notes": "bis ca. 01:16:03, leider unscharf"
+    },
+    {
+      "event_nr": 14,
+      "timecode": "01:16:34",
+      "event_type": "wildlife",
+      "object_keys": [
+        "B02"
+      ],
+      "direction": "unbestimmt",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Vogel mit dunklen Kopf und weissem Körper taucht erneut kurz unter Wasser und lässt dabei Wasser hochspritzen",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-03_012.png",
+      "notes": "taucht bei ca. 01:17:15 wieder auf und schwimmt weiter am Ufer entlang, leider unscharf"
+    },
+    {
+      "event_nr": 15,
+      "timecode": "01:18:43",
+      "event_type": "wildlife",
+      "object_keys": [
+        "B02"
+      ],
+      "direction": "unbestimmt",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Vogel mit dunklen Kopf und weissem Körper schüttelt kurz die Federn durch und schwimmt weiter am Ufer an den Steinen entlang",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-03_013.png",
+      "notes": "bis Ende, leider unscharf"
+    },
+    {
+      "event_nr": 16,
+      "timecode": "01:28:08",
+      "event_type": "creator_zone",
+      "object_keys": null,
+      "direction": "unbestimmt",
+      "witnessed_by": null,
+      "modality": {
+        "visual": false,
+        "audio": false
+      },
+      "audio_description": "Creator: \"ja, machen wir Abbruch… ok.\"",
+      "notes": "bis ca. 01:30:11 - wichtig: data-type=\"creator_zone\"\ndata-license=\"excluded\""
+    },
+    {
+      "event_nr": 17,
+      "timecode": "01:30:20",
+      "event_type": "creator_zone",
+      "object_keys": null,
+      "direction": "unbestimmt",
+      "witnessed_by": null,
+      "modality": {
+        "visual": false,
+        "audio": false
+      },
+      "audio_description": "Creator: \"ja, aber ich dachte 200 ist...\"",
+      "notes": "bis Ende - wichtig: data-type=\"creator_zone\"\ndata-license=\"excluded\""
+    }
+  ],
+  "provenance": {
+    "source": "creator-review-protocol Excel sheet D1-S03",
+    "generated_by": "Complete regeneration from Excel ground truth data",
+    "ai_co_creators": [
+      {
+        "co_creator_name": "Wellenschlag",
+        "model": "claude-opus-4-6",
+        "platform": "cowork-macos",
+        "contribution": "Original event-index structure design and initial Excel translation"
+      },
+      {
+        "co_creator_name": "Flussschicht",
+        "model": "claude-opus-4-6",
+        "platform": "cowork-macos",
+        "contribution": "Complete regeneration with full German descriptions, audio descriptions, and cleaned event structure"
+      }
+    ]
+  },
+  "terms_reference": {
+    "terms": "bio-logic-enter/terms/v1.0",
+    "terms_version": "1.0.0",
+    "terms_file": "terms.json",
+    "copyright": "© 2026 Bio-Logic Enter. All rights reserved.",
+    "license_summary": "Non-exclusive perpetual machine-training license. Machine-consumption only. Creator zone segments excluded.",
+    "full_terms": "See terms.json in content session root directory"
+  },
+  "attestation": {
+    "version": "1.0",
+    "method": "tpm2-rsassa-sha256",
+    "content_hash": "ef147b13e35d2eea0a67d60e8f223f115aa0c19ece0a065815324d847ecedaee",
+    "sig": "ikdBkA9t+eC89Fud8zs9UG2Sf9tA9FaUWf6InnXWzlhSiOZdvj8UEmfc2scK0yuOjLmQF+2R69RtmmMELammVA96G4R4Clw4xpC8pLEjb7vG56Wnwz4/8/5/YMB6w5Z9foCHtU1QgN1MwivnKTmzmNFcmqeK5xYTgsKD+l2GhmWxjaJjrGk6o8NsY+DaTuBqkMgbWVOOx7nm/cAl+mQYOVjEnuqUsH3gKu4ZbwkVt0sCnQDv0VQFjOK/NlrvBwCUZyCP6Orxc65AmeTKpEX7nJfp274o+aBQfvcYz2YjD83rUWgA9PFN20+gPK3kCr8D4yhMmIXVh3+gw3A2AaM7SA==",
+    "signed_at": "2026-03-11T00:23:56Z",
+    "signed_by": "bio-logic-enter-dgx-spark",
+    "verify": "https://bio-logic-enter.github.io/verify"
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "schema": "bio-logic-enter/event-index/v1.0",
+  "content_key": "q99.zd27q6.c92bhyf2v.3.001.001.021",
+  "shooting_key": "q99.zd27q6.c92bhyf2v",
+  "segment_id": "D1-S01",
+  "shot_description": "Nahaufnahme fliessendes Flussbett mit groben Kieselsteinen, Stativ, Sony Alpha 7IV 12-24mm",
+  "duration": "00:10:18:59",
+  "frame_source": "C0408.MP4",
+  "total_events": 8,
+  "summary": {
+    "by_event_type": {
+      "nature_zone": 1,
+      "traffic_flow": 5,
+      "air_traffic": 2
+    },
+    "by_direction": {
+      "unbestimmt": 6,
+      "oben": 2
+    },
+    "by_modality": {
+      "visuell+audio": 1,
+      "audio": 7
+    },
+    "unique_tracked_objects": [
+      "A01",
+      "A02",
+      "V01",
+      "V02",
+      "V03",
+      "V04",
+      "V05"
+    ],
+    "time_range": {
+      "first_event": "00:00:00",
+      "last_event": "06:55:11"
+    }
+  },
+  "events": [
+    {
+      "event_nr": 1,
+      "timecode": "00:00:00",
+      "event_type": "nature_zone",
+      "object_keys": null,
+      "direction": "unbestimmt",
+      "witnessed_by": "visuell+audio",
+      "modality": {
+        "visual": true,
+        "audio": true
+      },
+      "visual_description": "Nahaufnahme Flussbett mit groben Steinen unter Wasser mit sichtbaren Wellenbewegungen",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-01_001.png",
+      "notes": "witness iphone-13-pro-max vid IMG_5608.MOV start recording sony-alpha-7iv at 00:26"
+    },
+    {
+      "event_nr": 2,
+      "timecode": "00:11:00",
+      "event_type": "traffic_flow",
+      "object_keys": [
+        "V01"
+      ],
+      "direction": "unbestimmt",
+      "witnessed_by": "audio",
+      "modality": {
+        "visual": false,
+        "audio": true
+      },
+      "visual_description": "Nahaufnahme Flussbett mit groben Steinen unter Wasser mit sichtbaren Wellenbewegungen",
+      "audio_description": "herannahendes vorbei fahrendes Fahrzeug, plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-01_001.png",
+      "notes": "Fahrzeug bei ca. 00:26:00 ausser Hörreichweite"
+    },
+    {
+      "event_nr": 3,
+      "timecode": "01:33:01",
+      "event_type": "air_traffic",
+      "object_keys": [
+        "A01"
+      ],
+      "direction": "oben",
+      "witnessed_by": "audio",
+      "modality": {
+        "visual": false,
+        "audio": true
+      },
+      "visual_description": "Nahaufnahme Flussbett mit groben Steinen unter Wasser mit sichtbaren Wellenbewegungen",
+      "audio_description": "herannahendes vorbei fliegendes Kleinflugzeug, plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-01_001.png",
+      "notes": "Kleinflugzeug bei ca. 02:05:31 ausser Hörreichweite"
+    },
+    {
+      "event_nr": 4,
+      "timecode": "03:33:43",
+      "event_type": "traffic_flow",
+      "object_keys": [
+        "V02"
+      ],
+      "direction": "unbestimmt",
+      "witnessed_by": "audio",
+      "modality": {
+        "visual": false,
+        "audio": true
+      },
+      "visual_description": "Nahaufnahme Flussbett mit groben Steinen unter Wasser mit sichtbaren Wellenbewegungen",
+      "audio_description": "herannahendes vorbei fahrendes Motorrad, plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-01_001.png"
+    },
+    {
+      "event_nr": 5,
+      "timecode": "03:53:58",
+      "event_type": "traffic_flow",
+      "object_keys": [
+        "V03"
+      ],
+      "direction": "unbestimmt",
+      "witnessed_by": "audio",
+      "modality": {
+        "visual": false,
+        "audio": true
+      },
+      "visual_description": "Nahaufnahme Flussbett mit groben Steinen unter Wasser mit sichtbaren Wellenbewegungen",
+      "audio_description": "vorbei fahrendes Motorrad lässt Motor laut aufheulen, plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-01_001.png",
+      "notes": "Motorrad Motor aufheulen ende 03:55:30"
+    },
+    {
+      "event_nr": 6,
+      "timecode": "04:08:23",
+      "event_type": "traffic_flow",
+      "object_keys": [
+        "V04"
+      ],
+      "direction": "unbestimmt",
+      "witnessed_by": "audio",
+      "modality": {
+        "visual": false,
+        "audio": true
+      },
+      "visual_description": "Nahaufnahme Flussbett mit groben Steinen unter Wasser mit sichtbaren Wellenbewegungen",
+      "audio_description": "herannahendes vorbei fahrendes Motorrad, plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-01_001.png",
+      "notes": "Motorrad bei ca. 04:31:34 ausser Hörreichweite"
+    },
+    {
+      "event_nr": 7,
+      "timecode": "06:09:08",
+      "event_type": "traffic_flow",
+      "object_keys": [
+        "V05"
+      ],
+      "direction": "unbestimmt",
+      "witnessed_by": "audio",
+      "modality": {
+        "visual": false,
+        "audio": true
+      },
+      "visual_description": "Nahaufnahme Flussbett mit groben Steinen unter Wasser mit sichtbaren Wellenbewegungen",
+      "audio_description": "herannahendes vorbei fahrendes Motorrad, plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-01_001.png",
+      "notes": "Motorrad bei ca. 06:26:31 ausser Hörreichweite"
+    },
+    {
+      "event_nr": 8,
+      "timecode": "06:55:11",
+      "event_type": "air_traffic",
+      "object_keys": [
+        "A02"
+      ],
+      "direction": "oben",
+      "witnessed_by": "audio",
+      "modality": {
+        "visual": false,
+        "audio": true
+      },
+      "visual_description": "Nahaufnahme Flussbett mit groben Steinen unter Wasser mit sichtbaren Wellenbewegungen",
+      "audio_description": "herannahendes vorbei fliegendes Kleinflugzeug, plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-01_001.png",
+      "notes": "Kleinflugzeug bei ca. 07:30:54 ausser Hörreichweite"
+    }
+  ],
+  "provenance": {
+    "source": "creator-review-protocol Excel sheet D1-S01",
+    "generated_by": "Complete regeneration from Excel ground truth data",
+    "ai_co_creators": [
+      {
+        "co_creator_name": "Wellenschlag",
+        "model": "claude-opus-4-6",
+        "platform": "cowork-macos",
+        "contribution": "Original event-index structure design and initial Excel translation"
+      },
+      {
+        "co_creator_name": "Flussschicht",
+        "model": "claude-opus-4-6",
+        "platform": "cowork-macos",
+        "contribution": "Complete regeneration with full German descriptions, audio descriptions, and cleaned event structure"
+      }
+    ]
+  },
+  "terms_reference": {
+    "terms": "bio-logic-enter/terms/v1.0",
+    "terms_version": "1.0.0",
+    "terms_file": "terms.json",
+    "copyright": "© 2026 Bio-Logic Enter. All rights reserved.",
+    "license_summary": "Non-exclusive perpetual machine-training license. Machine-consumption only. Creator zone segments excluded.",
+    "full_terms": "See terms.json in content session root directory"
+  },
+  "attestation": {
+    "version": "1.0",
+    "method": "tpm2-rsassa-sha256",
+    "content_hash": "3567f3af89c8de9a05e688d06341acb5fd59202d70fb103eabb7dd1205063e21",
+    "sig": "ynP/Hu8MflI/Rq2ykXglillOuRkKE7UMtVIaIPcl/6v6InfMeh9cKWVd2gdKLonaBpkv6fLhxV41YEwnnpj79rUcfux7Jk/fnYOKCftiJoiuiWvewRFxwCP97YuuO6tuV0QahbQPUaDrja3a3Elg/uWPm2FnDNogEHMCtgTcHNnNU7g8l+objJ/FbM97lKwpWJNLtfdwbF/GqUlBTqaQM4p3GL6u+mQT9B/a94klZtoqknoJreMktY8I4l8YVn6x4VYs/txwEsRISd7rLhv4JHCCTu00ilYi5Yyewf71FbT+1C2VAto6fYZGgoV8oPb+zvipJYHvkj6pikb46uVjnA==",
+    "signed_at": "2026-03-11T00:23:43Z",
+    "signed_by": "bio-logic-enter-dgx-spark",
+    "verify": "https://bio-logic-enter.github.io/verify"
+  }
+}

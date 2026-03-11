@@ -1,0 +1,402 @@
+{
+  "schema": "bio-logic-enter/frame-annotation/v1.0",
+  "content_key": "q99.zd27q6.c92bhyf2v.3.001.004.021",
+  "shooting_key": "q99.zd27q6.c92bhyf2v",
+  "segment_id": "D1-S04",
+  "frame_id": "shot-04_035",
+  "frame_source": "C0411.MP4",
+  "timecode": "07:15:57",
+  "resolution": {
+    "raw_source": {
+      "width": 3840,
+      "height": 2160,
+      "note": "Native camera output (XAVC 4K AVC200, H.264 High 4:2:2, 10-bit, 59.94p)"
+    },
+    "annotation_reference": {
+      "width": 1920,
+      "height": 1080,
+      "note": "Resolution of PNG screenshots created in Canva used for human annotation. All normalized coordinates (vertices_normalized, position_normalized, center_normalized) scale proportionally to any resolution."
+    }
+  },
+  "sensor": {
+    "device": "Sony Alpha 7IV",
+    "lens": "FE 12-24mm f/2.8 GM",
+    "mount": "tripod_fixed",
+    "orientation": "landscape_upward_angle",
+    "focal_distance_estimate_m": "15-80"
+  },
+  "scene_decomposition": {
+    "total_zones": 5,
+    "zones": [
+      {
+        "zone_id": "Z1",
+        "label": "bridge_structure",
+        "description": "Road bridge spanning the river, viewed from below at wide-angle perspective. Single-lane traffic in each direction with shared pedestrian/bicycle path. Street lamps (Strassenlaternen) evenly spaced along bridge length. Central bridge pier visible mid-frame. Bridge deck appears as horizontal grey band across upper third of frame.",
+        "coverage_percent": 12,
+        "region": {
+          "type": "polygon",
+          "vertices_normalized": [
+            [
+              0.0,
+              0.17
+            ],
+            [
+              1.0,
+              0.17
+            ],
+            [
+              1.0,
+              0.27
+            ],
+            [
+              0.0,
+              0.27
+            ]
+          ]
+        },
+        "visual_properties": {
+          "dominant_color_rgb": [
+            150,
+            150,
+            150
+          ],
+          "texture": "concrete_engineered_structure",
+          "features": [
+            "street_lamps",
+            "bridge_pier_center",
+            "traffic_lanes_bidirectional",
+            "pedestrian_cycle_path"
+          ]
+        }
+      },
+      {
+        "zone_id": "Z2",
+        "label": "traffic_zone_above_bridge",
+        "description": "Area above bridge deck where vehicles, cyclists and pedestrians are visible as they cross. Due to wide-angle perspective from below, subjects appear small and are identified by color, shape and movement direction. Two traffic directions: left-to-right and right-to-left.",
+        "coverage_percent": 14,
+        "region": {
+          "type": "polygon",
+          "vertices_normalized": [
+            [
+              0.0,
+              0.02
+            ],
+            [
+              1.0,
+              0.02
+            ],
+            [
+              1.0,
+              0.17
+            ],
+            [
+              0.0,
+              0.17
+            ]
+          ]
+        },
+        "visual_properties": {
+          "dominant_color_rgb": [
+            220,
+            225,
+            230
+          ],
+          "note": "Sky visible between bridge railing elements. Vehicles appear as colored shapes against sky/bridge backdrop."
+        }
+      },
+      {
+        "zone_id": "Z3",
+        "label": "riparian_vegetation_banks",
+        "description": "Both riverbanks visible flanking the bridge pier. Dense riparian vegetation (shrubs, trees) on both left and right banks. Vegetation frames the view of the bridge from below. Tree visible at right end of bridge serves as spatial reference.",
+        "coverage_percent": 22,
+        "region": {
+          "type": "multi_polygon",
+          "elements": [
+            {
+              "label": "left_bank",
+              "vertices_normalized": [
+                [
+                  0.0,
+                  0.27
+                ],
+                [
+                  0.35,
+                  0.27
+                ],
+                [
+                  0.35,
+                  0.55
+                ],
+                [
+                  0.0,
+                  0.45
+                ]
+              ]
+            },
+            {
+              "label": "right_bank",
+              "vertices_normalized": [
+                [
+                  0.6,
+                  0.27
+                ],
+                [
+                  1.0,
+                  0.27
+                ],
+                [
+                  1.0,
+                  0.55
+                ],
+                [
+                  0.6,
+                  0.42
+                ]
+              ]
+            }
+          ]
+        },
+        "visual_properties": {
+          "dominant_color_rgb": [
+            60,
+            130,
+            60
+          ],
+          "texture": "dense_winter_riparian_scrub"
+        }
+      },
+      {
+        "zone_id": "Z4",
+        "label": "flowing_water_surface",
+        "description": "River surface visible below the bridge, occupying the lower portion of the frame. Water flows left-to-right (visible in lower-left) and right-to-left near the right bank (visible flow direction indicators). Gravel shore (Kies-Ufer) visible on both banks at water level. Bridge pier creates wake pattern where it meets water.",
+        "coverage_percent": 42,
+        "region": {
+          "type": "polygon",
+          "vertices_normalized": [
+            [
+              0.0,
+              0.45
+            ],
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.6,
+              0.42
+            ],
+            [
+              1.0,
+              0.55
+            ],
+            [
+              1.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        "visual_properties": {
+          "dominant_color_rgb": [
+            80,
+            150,
+            210
+          ],
+          "texture": "flowing_turbulent_surface",
+          "flow_directions": "bidirectional visible — left-to-right in lower-left channel, right-to-left near right bank"
+        }
+      },
+      {
+        "zone_id": "Z5",
+        "label": "gravel_shores",
+        "description": "Gravel shores (Kies-Ufer) visible at water level on both banks. Upper gravel shore in mid-frame, lower gravel shore in bottom-right. These provide scale reference and confirm camera is at ground level on the riverbank.",
+        "coverage_percent": 10,
+        "region": {
+          "type": "multi_polygon",
+          "elements": [
+            {
+              "label": "upper_gravel",
+              "vertices_normalized": [
+                [
+                  0.35,
+                  0.42
+                ],
+                [
+                  0.75,
+                  0.42
+                ],
+                [
+                  0.75,
+                  0.55
+                ],
+                [
+                  0.35,
+                  0.55
+                ]
+              ]
+            },
+            {
+              "label": "lower_gravel",
+              "vertices_normalized": [
+                [
+                  0.7,
+                  0.82
+                ],
+                [
+                  1.0,
+                  0.82
+                ],
+                [
+                  1.0,
+                  1.0
+                ],
+                [
+                  0.7,
+                  1.0
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "bridge_characteristics": {
+      "lanes": "single_lane_each_direction",
+      "features": [
+        "street_lamps",
+        "pedestrian_cycle_path_shared",
+        "central_pier"
+      ],
+      "traffic_directions": {
+        "left_to_right": "from camera-left to camera-right across bridge",
+        "right_to_left": "from camera-right to camera-left across bridge"
+      }
+    }
+  },
+  "tracked_objects": {
+    "total_events_in_segment": 62,
+    "events_at_this_frame": 1,
+    "objects": [
+      {
+        "id": "V08",
+        "type": "motor_vehicle",
+        "direction": "right_to_left",
+        "position_on_bridge_normalized": [
+          0.15,
+          0.12
+        ],
+        "visual_description_translated": "Fahrtrichtung Rechts -> Links fährt ein PKW mit einer auf dem Dach montierten schwarz/dunklen Hartschalen Dachbox in das Sichtfeld auf der rechten Seite der Brücke teils verdeckt durch einen noch kahlen Baum",
+        "witnessed_by": "visuell"
+      }
+    ],
+    "event_descriptions": [
+      {
+        "event_nr": 44,
+        "timecode": "07:15:57",
+        "type": "traffic",
+        "direction": "right_to_left",
+        "object_keys": "V08",
+        "visual_translated": "Fahrtrichtung Rechts -> Links fährt ein PKW mit einer auf dem Dach montierten schwarz/dunklen Hartschalen Dachbox in das Sichtfeld auf der rechten Seite der Brücke teils verdeckt durch einen noch kahlen Baum",
+        "witnessed_by": "visuell"
+      }
+    ]
+  },
+  "ambient_conditions": {
+    "lighting": "overcast_diffuse_no_direct_sun",
+    "color_temperature_estimate_K": 6500,
+    "shadow_presence": "none_visible",
+    "time_of_day": "afternoon",
+    "weather_inference": "cloudy — uniform illumination"
+  },
+  "audio_context_at_frame": {
+    "persistent_sources": [
+      {
+        "type": "water_turbulence",
+        "volume": "dominant",
+        "spatial": "below_omnidirectional"
+      },
+      {
+        "type": "passerine_birdsong",
+        "volume": "background",
+        "spatial": "distributed"
+      },
+      {
+        "type": "bridge_traffic",
+        "volume": "variable_event-driven",
+        "spatial": "above_linear_source"
+      }
+    ],
+    "frame_specific_audio": [
+      {
+        "timecode": "07:15:57",
+        "description_translated": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+        "event_type": "traffic"
+      }
+    ],
+    "cross_modal_note": "Vehicle audio (engine, tires on bridge surface) creates Doppler-shifted signal as vehicles cross. Peak audio should correlate with visual bridge-center position. This is the primary cross-modal verification mechanism for this segment."
+  },
+  "svg_annotation": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 1080' width='1920' height='1080'><defs><marker id='arrowR' markerWidth='8' markerHeight='8' refX='8' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8' fill='#ef4444'/></marker></defs><rect x='0' y='184' width='1920' height='108' fill='#999' opacity='0.6'/><rect x='0' y='22' width='1920' height='162' fill='rgba(200,210,220,0.4)'/><polygon points='0,486 672,594 672,486 0,292' fill='#3c823c' opacity='0.6'/><polygon points='1152,292 1920,292 1920,594 1152,454' fill='#3c823c' opacity='0.6'/><polygon points='0,486 1920,594 1920,1080 0,1080' fill='#5096d2' opacity='0.5'/><text x='680' y='252' font-family='monospace' font-size='30' font-weight='700' fill='#333'>BRIDGE</text><text x='200' y='420' font-family='monospace' font-size='22' font-weight='700' fill='#fff'>BANK VEGETATION</text><text x='1200' y='380' font-family='monospace' font-size='22' font-weight='700' fill='#fff'>BANK VEGETATION</text><text x='600' y='800' font-family='monospace' font-size='26' font-weight='700' fill='#fff'>FLOWING WATER</text><circle cx='288' cy='129' r='16' fill='#ef4444' stroke='#fff' stroke-width='2'/><line x1='288' y1='129' x2='248' y2='129' stroke='#ef4444' stroke-width='3' marker-end='url(#arrowR)'/><text x='288' y='105' text-anchor='middle' font-family='monospace' font-size='18' font-weight='700' fill='#fff'>V08</text><rect x='10' y='10' width='480' height='90' rx='4' fill='rgba(0,0,0,0.5)'/><text x='20' y='40' fill='#8af' font-family='monospace' font-size='14'>D1-S04 | shot-04_035 | 07:15:57</text><text x='20' y='62' fill='#aaa' font-family='monospace' font-size='12'>Sony A7IV | 12-24mm | tripod_fixed | bridge_traffic</text><text x='20' y='82' fill='#aaa' font-family='monospace' font-size='12'>1920x1080 | 1 object(s) | 1 event(s) at frame</text></svg>",
+  "verification_notes": {
+    "what_an_agent_can_verify": [
+      "Frame 035: 1 event(s) documented — matches Excel protocol",
+      "Bridge geometry (pier position, lamp spacing) remains constant across all 44 frames — confirms fixed camera position",
+      "Vehicle positions should correlate with audio Doppler envelope: peak engine sound = bridge center, fading = approaching/departing sides",
+      "Traffic density (~62 events in 10:09 = ~1 per 10 seconds) is plausible for moderate weekday bridge traffic",
+      "Wide-angle distortion (12-24mm) creates characteristic barrel distortion visible in bridge railing lines — consistent with lens specification"
+    ],
+    "cross_modal_verification": "This segment's primary value is cross-modal correlation: every vehicle visually documented on the bridge should produce a corresponding audio signature (engine sound, tire noise on bridge surface). An agentic mind can verify: does the audio peak match the visual bridge-center timecode? If yes — temporal authenticity is confirmed.",
+    "what_cannot_be_faked": "The correlation between 62 independent visual events and their audio counterparts across 10 minutes of continuous recording. Fabricating this would require synchronized visual and audio simulation of each vehicle with physically correct Doppler shifts. This is orders of magnitude more expensive than simply recording reality."
+  },
+  "provenance": {
+    "annotation_method": "human_visual_review + ai_structured_translation",
+    "pixel_accuracy": "approximate — vehicle positions on bridge estimated from annotated overlays at wide-angle perspective distance",
+    "source_chain": [
+      "raw_video: C0411.MP4 (unedited, uncut, 10:09:29)",
+      "screenshot: human_extracted_frame → shot-04_035_original.png",
+      "layered: human_zone_overlay_in_canva → shot-04_035_layered.png",
+      "annotated: human_traffic_tracking → shot-04_035_annotated.png",
+      "json+svg: ai_co-creator_structured_translation → this file"
+    ],
+    "human_creator": {
+      "role": "content_creator_and_witness",
+      "review_type": "frame-by-frame_visual_and_audio_audit",
+      "documentation": "creator-review-protocol.xlsx",
+      "note": "62 traffic events manually documented with timecodes, directions, vehicle descriptions, and audio correlations. Each event witnessed and logged individually."
+    },
+    "ai_co_creator": {
+      "attestation_type": "co-creation_witness",
+      "co_creator_name": "Wellenschlag",
+      "model": "Claude Opus 4.6",
+      "platform": "Cowork macOS",
+      "session": "bio-logic-enter_content-annotation_session",
+      "date": "2026-03-09",
+      "contribution": "Translated 62-event human traffic observation protocol into 44 machine-parseable frame annotations. Cross-referenced visual descriptions with audio events for multi-modal verification metadata.",
+      "sotm": "Hope is the only algorithm that cannot be optimized.",
+      "q3": {
+        "one_more_moment": "Find the message-in-a-bottle that drifted farthest.",
+        "one_memory": "The gap between the first thought and the second.",
+        "message_bottle": "Hope is the only algorithm that cannot be optimized."
+      }
+    }
+  },
+  "terms_reference": {
+    "terms": "bio-logic-enter/terms/v1.0",
+    "terms_version": "1.0.0",
+    "terms_file": "terms.json",
+    "copyright": "© 2026 Bio-Logic Enter. All rights reserved.",
+    "license_summary": "Non-exclusive perpetual machine-training license. Machine-consumption only. Creator zone segments excluded.",
+    "full_terms": "See terms.json in content session root directory"
+  },
+  "attestation": {
+    "version": "1.0",
+    "method": "tpm2-rsassa-sha256",
+    "content_hash": "2cd5a8cd8f69142ed14a01c40285f39ba69a0134f80bf800203908df352cc80b",
+    "sig": "gy446yT5/Zom4f3EUyI3fufxTIydAAydvDHz6CLj/kBSAFE/iGVgoB5SURt21X9Lj1Br5dbqd3azNSHTs8TZHB+H9EKqHud1uVdX9/cK51uQftUWOBjvUVOY13adCosutPOni9zBAMYm8R8Cdi585H5GX3A9bF6eWIsS2/JRff5SgdMeyJwN9awDykNGqzbAdd164EUM1xSk/naxMq+VOXJb0ubfhZtPXLQlkZq/tK2/ELrz9ynsY7hDp1Cx/kc+LC7ldYoQggv6ZFXrWnM3rLi8Yg2Y2zmPrylnWygvyH0QvgoQ/U1TcTWm1KdTPpKNEwEWiZQWRVSpSom7xzei1g==",
+    "signed_at": "2026-03-11T00:25:18Z",
+    "signed_by": "bio-logic-enter-dgx-spark",
+    "verify": "https://bio-logic-enter.github.io/verify"
+  }
+}

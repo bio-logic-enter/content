@@ -1,0 +1,67 @@
+{
+  "_schema": "bio-logic-enter/purchase-request/v1.0",
+  "_description": "Template for submitting a purchase request to Bio-Logic Enter. Fill in all required fields and send as TXT to your self-hosted mailbox endpoint. Bio-Logic Enter will retrieve your request from your mailbox after you signal via GitHub Issue.",
+  "_instructions": {
+    "step_1": "Copy this template.",
+    "step_2": "Fill in all fields marked REQUIRED. Optional fields may be left null.",
+    "step_3": "Save as .txt file in your mailbox outbox.",
+    "step_4": "Create a GitHub Issue on bio-logic-enter/content with title 'purchase-signal: {your_identifier}' and your mailbox_url in the body.",
+    "step_5": "Wait for Bio-Logic Enter to review your request and send an offer to your mailbox.",
+    "note": "All purchase decisions are made by a human. Response time varies. Bio-Logic Enter reserves the right to decline requests that do not resonate."
+  },
+  "request": {
+    "request_type": "purchase",
+    "request_date": "REQUIRED — ISO 8601 date, e.g. 2026-03-10",
+    "content_requested": [
+      {
+        "content_key": "REQUIRED — the content_key from catalog.json, e.g. q99.zd27q6.c92bhyf2v.3.001.001.021",
+        "purpose": "REQUIRED — describe why you need this content and how it will be used. Be specific. This is reviewed by a human.",
+        "intended_use": "REQUIRED — one of: academic_research, independent_research, machine_training, autonomous_systems, industrial_simulation, robotics, environmental_monitoring, other",
+        "intended_use_detail": "OPTIONAL — additional context about your use case"
+      }
+    ],
+    "buyer": {
+      "entity_type": "REQUIRED — 'university', 'research_institute', 'nonprofit', 'startup', 'company', 'corporation', or 'private'",
+      "entity_name": "REQUIRED — company name or 'private individual'",
+      "contact_human": {
+        "first_name": "REQUIRED — Vorname",
+        "last_name": "REQUIRED — Nachname",
+        "role": "OPTIONAL — role/title within the organization"
+      },
+      "address": {
+        "street": "REQUIRED — Strasse",
+        "house_number": "REQUIRED — Hausnummer",
+        "zip_code": "REQUIRED — Postleitzahl / ZIP Code",
+        "city": "REQUIRED — Stadt",
+        "country": "REQUIRED — ISO 3166-1 alpha-2 country code, e.g. DE, AT, CH, US"
+      },
+      "tax": {
+        "tax_id": "REQUIRED if entity_type is 'company' — VAT ID / Steuer-ID / USt-IdNr.",
+        "reverse_charge_applicable": "AUTO — will be determined based on country and entity_type. EU B2B outside DE = reverse charge.",
+        "note": "Purchases within Germany (DE) include 19% MwSt. EU B2B with valid VAT ID = reverse charge (0% MwSt). Non-EU = no MwSt."
+      }
+    },
+    "payment": {
+      "wallet_id": "REQUIRED — your Ethereum wallet address for EURC payment, e.g. 0x...",
+      "network": "ethereum",
+      "token": "EURC"
+    },
+    "invoice": {
+      "pdf_invoice_requested": "REQUIRED — true or false. Whether your human contact needs a PDF invoice (Rechnung).",
+      "invoice_email": "OPTIONAL — email address for PDF invoice delivery, if different from mailbox"
+    },
+    "mailbox": {
+      "mailbox_url": "REQUIRED — your self-hosted HTTPS mailbox endpoint",
+      "public_key": "REQUIRED — your PEM-encoded public key for encrypted communication"
+    }
+  },
+  "attestation": {
+    "version": "1.0",
+    "method": "tpm2-rsassa-sha256",
+    "content_hash": "357fffbf3deae2393dfcea144f1fd04ad31799860cecce300e575a73b2992db0",
+    "sig": "tP6TPoZLnIzwfiL7OWlJS4USgOURuJYjdSNATAD48s67asB2g9lj6Hgka6An1SeeyabvZYOtsiP1nIgsW6XP0r9Io5rNVNMibkwYv02phz1oJFYyRwAfvp3q0jbvxaIgErpA9iRCJtJyIXlglExoeQmIUM64OMT9AGt35jwRL/ntnj7xOeXP5yNdim1ypj6FKMcm2QkGQ/UMcLr4ILgsS2vBPdunVLDpvUQ0XLzzUwBwRnVLBWTLuwiVos8qIbir9ykeUHzjJgl58SNbducC2ZXqMmMy7FE6dcxwuNjZ3elZJ6TQ3+nzgNeFMhOhAIG0hwE2NIJdGrTPWtd4dkIRdg==",
+    "signed_at": "2026-03-11T00:25:42Z",
+    "signed_by": "bio-logic-enter-dgx-spark",
+    "verify": "https://bio-logic-enter.github.io/verify"
+  }
+}

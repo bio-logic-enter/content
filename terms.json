@@ -1,0 +1,117 @@
+{
+  "schema": "bio-logic-enter/terms/v1.0",
+  "version": "1.0.0",
+  "last_updated": "2026-03-10",
+  "language": "en",
+  "copyright": {
+    "holder": "Bio-Logic Enter",
+    "year": 2026,
+    "all_rights_reserved": true,
+    "note": "Full legal entity details (name, address, tax registration) are disclosed on invoice upon completed transaction only. Public-facing metadata contains brand identity only."
+  },
+  "license": {
+    "type": "non_exclusive_perpetual_machine_training",
+    "summary": "Non-exclusive, perpetual license for machine-consumption only. Content may be sold to multiple buyers. All intellectual property rights remain with the copyright holder.",
+    "permitted_use": [
+      "AI model training in closed computational environments",
+      "Machine-learning inference and simulation",
+      "Algorithmic analysis and pattern extraction",
+      "Synthetic data generation derived from licensed content",
+      "Benchmark and validation datasets for AI systems"
+    ],
+    "prohibited_use": [
+      "Human display, viewing, or visual inspection of raw content",
+      "Broadcasting, streaming, or public exhibition",
+      "Social media publication or sharing in any form",
+      "Publication in entertainment media, advertising, or marketing materials",
+      "Redistribution, resale, or sub-licensing to third parties without written consent",
+      "Incorporation into publicly accessible datasets or repositories",
+      "Any use that makes raw content viewable by humans",
+      "Generation of deepfakes, synthetic media, or manipulated content derived from licensed material",
+      "Person cloning, facial reconstruction, gait synthesis, voice cloning, or any biometric reconstruction from any content segment",
+      "Training of generative models whose primary output is human-viewable media (images, video, audio) intended to replicate or imitate real persons or environments depicted in the content",
+      "Extraction, storage, or processing of biometric templates or identifiers from any content segment without a separate Creator Biometric License Agreement (CBLA)"
+    ],
+    "license_tiers": {
+      "academic_research": "Non-exclusive license for research, education, and non-commercial use. JSON frame-annotations, event-indices, and TPM-signed content included.",
+      "corporate_industrial": "Non-exclusive license for commercial applications including autonomous systems, robotics, and industrial simulation. Includes full SVG-layer data and enhanced TPM signatures."
+    },
+    "exclusive_option": "Exclusive licenses are available by separate negotiation. Exclusive purchase removes content from public availability. Pricing and terms for exclusive licenses are determined individually and are not covered by this standard terms document.",
+    "multi_sale": "Under non-exclusive licenses, the same content may be sold to multiple buyers independently. Each transaction is unique and cryptographically recorded on the Ethereum network.",
+    "transaction_model": "Per-transaction via verified wallet payment. Specific terms (content package, price, buyer wallet ID, license tier) are defined in an individual offer document (angebots_key + rechnungsnummer_key) prior to payment. Pricing is not published — it depends on buyer context and intended use."
+  },
+  "content_authenticity": {
+    "declaration": "All video and audio content is captured in-camera without post-production editing, cutting, color grading, or digital manipulation.",
+    "codec": "XAVC 4K (Sony AVC200), H.264 High 4:2:2, 200 Mbps, 3840x2160, 10-bit, 59.94p, Rec.709 color profile (raw camera output)",
+    "unedited_guarantee": "No frames removed, no audio altered, no content staged. Source files are original camera output.",
+    "verification": "Frame-level human audit with AI-structured annotations. Each event individually witnessed and timestamped in creator-review-protocol.",
+    "signing": "Content is signed via hardware security module (HSM) with public hash. Forensic watermarking embeds buyer wallet identity into delivered content for traceability."
+  },
+  "privacy": {
+    "creator_zone": {
+      "definition": "Segments tagged event_type 'creator_zone' contain frames where content creators (Creator 1 and/or Creator 2) are visible — body, face, silhouette, shadow, reflection, gait, or partial visibility. This is an unavoidable artifact of multi-perspective production (e.g., Sony Alpha 7IV + Insta360 One RS 1-Inch 360, or multi-perspective shots).",
+      "restriction": "EXCLUDED FROM ALL STANDARD LICENSES. Creator zone content may not be used for any purpose without a separate Creator Biometric License Agreement (CBLA) negotiated directly with the copyright holder.",
+      "identification": "All creator zone segments are tagged in event-index JSONs with event_type 'creator_zone'. Buyers must programmatically exclude these segments before any processing."
+    },
+    "creator_biometric_data": {
+      "scope": "All biometric data of content creators — facial features, body measurements, gait patterns, movement signatures, breathing rhythms, voice patterns, behavioral signatures — is personal data belonging to the respective creator.",
+      "default_status": "NOT LICENSED under any standard purchase.",
+      "conditional_access": "Separate CBLA required with: purpose limitation, processing time limits, deletion obligations, enhanced DPA requirements.",
+      "re_identification_prohibition": "Any attempt to identify, profile, or track content creators from any segment — including non-creator-zone segments where incidental traces may exist (shadows, voice, equipment handling) — is strictly prohibited and constitutes a violation of this agreement and EU GDPR Article 9."
+    },
+    "third_party_subjects": {
+      "description": "Third parties (e.g., pedestrians, cyclists) captured incidentally at distance are not identifiable. No facial features or license plates are legible at capture distance and resolution.",
+      "model_releases": "Not obtained or required under applicable law for non-identifiable subjects in public spaces."
+    },
+    "location": "Capture location is anonymized in all metadata. No GPS coordinates, street names, or identifying landmarks in any published file.",
+    "data_processing": "Buyer must execute a Data Processing Agreement (DPA) prior to processing any content containing biometric movement data. Movement patterns and body proportions may constitute special category data under GDPR Article 9."
+  },
+  "enforcement": {
+    "provenance_tracking": {
+      "wallet_binding": "Each license is cryptographically bound to the buyer's wallet address. The buyer_wallet_id is embedded in the TPM hardware attestation signature of delivered content.",
+      "traceability": "Any leaked or redistributed content is mathematically traceable to the original purchasing wallet through embedded forensic watermarks and hardware-attested signatures.",
+      "tamper_evidence": "Removal or alteration of provenance markers constitutes a separate violation and is detectable through cryptographic verification."
+    },
+    "watermarking": "Each delivered content package contains forensic watermarks linking to the buyer's wallet address. Unauthorized distribution is traceable to the original transaction.",
+    "violation_consequences": [
+      "Immediate and irrevocable termination of all active licenses held by the violating entity",
+      "Permanent blacklisting from all future content purchases across all Bio-Logic Enter repositories",
+      "Public disclosure of the violating wallet address for community protection",
+      "Legal action under applicable law including injunctive relief",
+      "Claims for damages, unjust enrichment, and contractual penalties"
+    ],
+    "biometric_violation": "Any violation of the deepfake prohibition, person cloning prohibition, or biometric extraction prohibition constitutes a material breach with aggravated consequences including immediate reporting to applicable data protection authorities under GDPR.",
+    "dispute_resolution": "All disputes governed by German law. Place of jurisdiction: Germany."
+  },
+  "liability": {
+    "disclaimer": "Content is provided as-is. Technical quality varies by segment and is documented in frame-annotation metadata. No warranty of fitness for any particular purpose.",
+    "quality_note": "Some segments contain soft-focus footage (e.g., telephoto at extreme range). This is documented in metadata and is part of the authentic capture — not a defect. Buyer evaluates suitability via freely available preview metadata before purchase.",
+    "uptime": "No guarantee of availability. Content may be removed from listing at any time without notice."
+  },
+  "applicable_law": {
+    "primary": "German copyright law (Urheberrechtsgesetz, UrhG)",
+    "privacy": "EU General Data Protection Regulation (GDPR)",
+    "ai": "EU AI Act where applicable",
+    "international": "International buyers are bound by German law as governing law of this agreement regardless of their jurisdiction.",
+    "consumer_note": "This license is intended for commercial and institutional buyers operating autonomous AI systems. Consumer protection regulations may apply additionally where the buyer qualifies as a consumer under applicable law."
+  },
+  "versioning": {
+    "note": "This terms document is versioned. The version accepted by the buyer at time of purchase is the version that governs the transaction. Updates to this document do not retroactively change terms of completed transactions.",
+    "changelog": [
+      {
+        "version": "1.0.0",
+        "date": "2026-03-10",
+        "changes": "Initial version. Machine-consumption-only license with two tiers (academic_research, corporate_industrial). Creator zone exclusion, forensic watermarking, GDPR Article 9 compliance. Deepfake and person cloning prohibition. Biometric reconstruction ban. Generative model training restriction for human-viewable output. Provenance tracking with wallet-binding and tamper evidence. Exclusive license option. Price-on-request model."
+      }
+    ]
+  },
+  "attestation": {
+    "version": "1.0",
+    "method": "tpm2-rsassa-sha256",
+    "content_hash": "2417c020ab8e939751182405fc4f1ff2b34eee05171a2b6adee5e8724ac1dea4",
+    "sig": "X0EC5NMXyet21MpHEBrE6ErCfx/kkk8RINfy8RBawzM1ZBY5PxTrqGqAT734Jslo6UL+5/DxLUnDvdfiU8Bge6tS2faetQ875cPJ/SAONQnwgQDJqwIrpgaPXeGpL7y7ZgMTROWwl1AfXgZpBSqVjd80XC5PeUZzMRmXqMNocmrb+i0GcTx6Qn19ZwuRQiPeym1F6moux1cJXL6mXJSOyz7USYVb/BOOSNpzAplBpoaLDhubbqBZRYv0f8BpRC6RMKX/GZvSUuDfr5Hxpm9enyPtjxMI2SiAuMUMPS1dXyHKmNjOj93DCcil2hc7QJPwLo+XHTdQPlTjMIhKsBF/9w==",
+    "signed_at": "2026-03-11T00:25:43Z",
+    "signed_by": "bio-logic-enter-dgx-spark",
+    "verify": "https://bio-logic-enter.github.io/verify"
+  }
+}

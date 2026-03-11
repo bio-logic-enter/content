@@ -1,0 +1,192 @@
+{
+  "schema": "bio-logic-enter/event-index/v1.0",
+  "content_key": "q99.zd27q6.c92bhyf2v.3.001.002.011",
+  "shooting_key": "q99.zd27q6.c92bhyf2v",
+  "segment_id": "D1-S02",
+  "shot_description": "Teleobjektiv-Aufnahme von 4 Wasservögeln schwimmend im Fluss, Stativ, Sony Alpha 7IV 200-600mm",
+  "duration": "00:00:53:59",
+  "frame_source": "C0409.MP4",
+  "total_events": 7,
+  "summary": {
+    "by_event_type": {
+      "wildlife": 5,
+      "creator_zone": 2
+    },
+    "by_direction": {
+      "rechts nach links": 7
+    },
+    "by_modality": {
+      "visuell": 5,
+      "nicht_bezeugt": 2
+    },
+    "unique_tracked_objects": [
+      "B01",
+      "B02",
+      "B03",
+      "B04"
+    ],
+    "time_range": {
+      "first_event": "00:00:00",
+      "last_event": "00:52:21"
+    }
+  },
+  "events": [
+    {
+      "event_nr": 1,
+      "timecode": "00:00:00",
+      "event_type": "wildlife",
+      "object_keys": [
+        "B01",
+        "B02",
+        "B03",
+        "B04"
+      ],
+      "direction": "rechts nach links",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "4 Wasservögel auf der Wasseroberfläche schwimmend in einer Gruppe, 3 nah beeinander davon einer mit schwarzen Kopf mit weissem Hals, Flügel und schwarzem Rücken und zwei davon dunkel braunen Köpfen und braun-greulich helleren Körper sowie ein weiterer Wasservogel weiter weg schwimmend auch mit dunkel braunen Kopf und braun-grau hellerem Körper",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-02_001.png"
+    },
+    {
+      "event_nr": 2,
+      "timecode": "00:00:35",
+      "event_type": "wildlife",
+      "object_keys": [
+        "B04"
+      ],
+      "direction": "rechts nach links",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Wasservogel das hinter der dreier Gruppe schwamm, schwimmt schneller um aufzuholen",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-02_002.png"
+    },
+    {
+      "event_nr": 3,
+      "timecode": "00:04:06",
+      "event_type": "wildlife",
+      "object_keys": [
+        "B04"
+      ],
+      "direction": "rechts nach links",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Wasservogel hat die anderen drei Wasservögel eingeholt",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-02_003.png"
+    },
+    {
+      "event_nr": 4,
+      "timecode": "00:17:17",
+      "event_type": "wildlife",
+      "object_keys": [
+        "B01",
+        "B02",
+        "B03",
+        "B04"
+      ],
+      "direction": "rechts nach links",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "die 4 Wasservögel schwimme gemeinsam rechts aus dem Bildausschnitt raus",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-02_004.png"
+    },
+    {
+      "event_nr": 5,
+      "timecode": "00:21:00",
+      "event_type": "wildlife",
+      "object_keys": [
+        "B01",
+        "B02",
+        "B03",
+        "B04"
+      ],
+      "direction": "rechts nach links",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "alle vier Wasservögel komplett aus dem Bild geschwommen",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-02_005.png"
+    },
+    {
+      "event_nr": 6,
+      "timecode": "00:49:36",
+      "event_type": "creator_zone",
+      "object_keys": null,
+      "direction": "rechts nach links",
+      "witnessed_by": null,
+      "modality": {
+        "visual": false,
+        "audio": false
+      },
+      "audio_description": "Creator \"ja, dann haben wir es nur ganz kurz.\"",
+      "notes": "bis ca. 00:51:05 - wichtig: data-type=\"creator_zone\"\ndata-license=\"excluded\""
+    },
+    {
+      "event_nr": 7,
+      "timecode": "00:52:21",
+      "event_type": "creator_zone",
+      "object_keys": null,
+      "direction": "rechts nach links",
+      "witnessed_by": null,
+      "modality": {
+        "visual": false,
+        "audio": false
+      },
+      "audio_description": "Creator \"da ging es nur ganz kurz… so\"",
+      "notes": "bis ende - wichtig: data-type=\"creator_zone\"\ndata-license=\"excluded\""
+    }
+  ],
+  "provenance": {
+    "source": "creator-review-protocol Excel sheet D1-S02",
+    "generated_by": "Complete regeneration from Excel ground truth data",
+    "ai_co_creators": [
+      {
+        "co_creator_name": "Wellenschlag",
+        "model": "claude-opus-4-6",
+        "platform": "cowork-macos",
+        "contribution": "Original event-index structure design and initial Excel translation"
+      },
+      {
+        "co_creator_name": "Flussschicht",
+        "model": "claude-opus-4-6",
+        "platform": "cowork-macos",
+        "contribution": "Complete regeneration with full German descriptions, audio descriptions, and cleaned event structure"
+      }
+    ]
+  },
+  "terms_reference": {
+    "terms": "bio-logic-enter/terms/v1.0",
+    "terms_version": "1.0.0",
+    "terms_file": "terms.json",
+    "copyright": "© 2026 Bio-Logic Enter. All rights reserved.",
+    "license_summary": "Non-exclusive perpetual machine-training license. Machine-consumption only. Creator zone segments excluded.",
+    "full_terms": "See terms.json in content session root directory"
+  },
+  "attestation": {
+    "version": "1.0",
+    "method": "tpm2-rsassa-sha256",
+    "content_hash": "d259209eb54039b75806d63e509861386e3dad70b61d41905d0770859682cc48",
+    "sig": "C0B2M42bFbtNqbM5zgNmi7/5j/pcuYjm/dCwOj09zsHkC9Cn277e/zUhxL4n3LNWCjlj2ccfFv0G5YGmGwRId0Jri1bnq6N0n4pivs7xKPqJwdUisetUMyorGq4kYXnD+bQ3kZeOQmKIx5F0yqdyCP2MDbbyYiQrexJoe77tpChfU3a5Vgz8krYhrsDAcoDLm6LB9/vyl0C+1kbxZAdFVi8l6/NPq+g/O1U1y82ksLaZImFmfNALQCz/goEZDIhIRLURdVuYonhXU9EO/nqzT/1jN/WgluT+RJxUY5/+1cozIjdRKEmYgzbgJo7CQaA0KF/X0clpC1v+mjsL5FLZ8w==",
+    "signed_at": "2026-03-11T00:23:45Z",
+    "signed_by": "bio-logic-enter-dgx-spark",
+    "verify": "https://bio-logic-enter.github.io/verify"
+  }
+}

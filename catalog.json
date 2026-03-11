@@ -1,0 +1,166 @@
+{
+  "schema": "bio-logic-enter/catalog/v1.0",
+  "version": "1.0.0",
+  "last_updated": "2026-03-10",
+  "total_shooting_sessions": 1,
+  "total_shots": 4,
+  "total_events": 207,
+  "total_frame_annotations": 66,
+  "license_model": "price_on_request",
+  "license_note": "Pricing depends on intended use and buyer context. Submit a purchase request to receive a personalized offer.",
+  "sessions": [
+    {
+      "shooting_key": "q99.zd27q6.c92bhyf2v",
+      "capture_date": "2026-03-04",
+      "environment_type": "riparian_zone",
+      "water_body": "pre-alpine_river",
+      "season": "late_winter_pre-spring",
+      "climate_zone": "Cfb",
+      "elevation_m": 480,
+      "light_conditions": "overcast_diffuse",
+      "manifest": "./content/q99.zd27q6.c92bhyf2v/manifest.json",
+      "shots": [
+        {
+          "content_key": "q99.zd27q6.c92bhyf2v.3.001.001.021",
+          "shot_key": "001",
+          "path": "./content/q99.zd27q6.c92bhyf2v/001/",
+          "scene_class": "water_surface_macro",
+          "lens": "12-24mm",
+          "mount": "tripod",
+          "duration": "00:10:18",
+          "modality": [
+            "visual",
+            "audio"
+          ],
+          "total_frame_annotations": 1,
+          "total_events": 45,
+          "event_types": [
+            "ambient",
+            "motor_vehicle",
+            "aircraft"
+          ],
+          "wildlife": false,
+          "infrastructure": true,
+          "creator_zone": false,
+          "balance_key": "021",
+          "security_level": 1,
+          "description": "Wide-angle flowing river with gravel banks and riparian vegetation. Distant traffic audio, occasional aircraft. Macro-scale water dynamics."
+        },
+        {
+          "content_key": "q99.zd27q6.c92bhyf2v.3.001.002.011",
+          "shot_key": "002",
+          "path": "./content/q99.zd27q6.c92bhyf2v/002/",
+          "scene_class": "wildlife_behavioral_observation",
+          "lens": "200-600mm",
+          "mount": "tripod",
+          "duration": "00:53:59",
+          "modality": [
+            "visual"
+          ],
+          "total_frame_annotations": 5,
+          "total_events": 50,
+          "event_types": [
+            "waterbird_swimming",
+            "waterbird_diving",
+            "waterbird_grooming"
+          ],
+          "wildlife": true,
+          "wildlife_species": [
+            "waterbird_unidentified_x4"
+          ],
+          "infrastructure": false,
+          "creator_zone": false,
+          "balance_key": "011",
+          "security_level": 1,
+          "description": "Telephoto observation of four waterbirds — swimming, diving, grooming behaviors. Continuous behavioral documentation over nearly one minute."
+        },
+        {
+          "content_key": "q99.zd27q6.c92bhyf2v.3.001.003.011",
+          "shot_key": "003",
+          "path": "./content/q99.zd27q6.c92bhyf2v/003/",
+          "scene_class": "wildlife_rare_species_observation",
+          "lens": "200-600mm",
+          "mount": "tripod",
+          "duration": "01:31:29",
+          "modality": [
+            "visual"
+          ],
+          "total_frame_annotations": 13,
+          "total_events": 50,
+          "event_types": [
+            "kingfisher_flight",
+            "waterbird_diving",
+            "waterbird_swimming"
+          ],
+          "wildlife": true,
+          "wildlife_species": [
+            "kingfisher_alcedo_atthis",
+            "waterbird_diving_unidentified"
+          ],
+          "rare_species": true,
+          "infrastructure": false,
+          "creator_zone": false,
+          "balance_key": "011",
+          "security_level": 1,
+          "description": "Telephoto-lens recording of rare kingfisher (Alcedo atthis) in flight plus diving waterbird. Extended observation with multiple behavioral phases."
+        },
+        {
+          "content_key": "q99.zd27q6.c92bhyf2v.3.001.004.021",
+          "shot_key": "004",
+          "path": "./content/q99.zd27q6.c92bhyf2v/004/",
+          "scene_class": "multi-modal_traffic_ambient_observation",
+          "lens": "12-24mm",
+          "mount": "tripod",
+          "duration": "10:09:29",
+          "modality": [
+            "visual",
+            "audio"
+          ],
+          "total_frame_annotations": 47,
+          "total_events": 62,
+          "event_types": [
+            "motor_vehicle",
+            "bicycle",
+            "pedestrian",
+            "aircraft",
+            "ambient"
+          ],
+          "wildlife": false,
+          "infrastructure": true,
+          "infrastructure_types": [
+            "vehicular_bridge",
+            "road"
+          ],
+          "traffic_modes": [
+            "car",
+            "van",
+            "truck",
+            "bicycle",
+            "pedestrian"
+          ],
+          "creator_zone": false,
+          "balance_key": "021",
+          "security_level": 1,
+          "description": "Wide-angle multi-modal traffic observation on vehicular bridge. Cars, vans, trucks, cyclists, pedestrians — all with direction and timecode. Flowing river foreground."
+        }
+      ]
+    }
+  ],
+  "query_guide": {
+    "filter_by_wildlife": "shots[].wildlife == true",
+    "filter_by_security": "shots[].security_level <= 3",
+    "filter_by_rare_species": "shots[].rare_species == true",
+    "filter_by_modality": "shots[].modality contains 'audio'",
+    "filter_by_infrastructure": "shots[].infrastructure == true",
+    "get_all_content_keys": "shots[].content_key"
+  },
+  "attestation": {
+    "version": "1.0",
+    "method": "tpm2-rsassa-sha256",
+    "content_hash": "4b876cfec1c8f4a30316c5dd95e537491c9dddb4cbf30f59316db44a87363525",
+    "sig": "DRghDrLTWGl81w/7W78XJSOK40NoDjbGDvNlnpNC2Yu+GyesWXr7W3LM4QprZ+yTC01Lk987Jb/VjCQdAOpG6YwyMgsbWsRCAjI08/ixUnoO7auBwhq0kaByNklsTuADBzYNEHwhnF2ysz6+ry1Pu9N8/RzZnJjGTWwlMWPddr0jN8lJUO93gokOJU6wlbNrOhoeYgu02I/AQSUk9n3TLcwfsdj4P2sN0L/rCTN15Qsm99a8z6xsKOmiqiXtLO09CWoLXKvhCDK2TiUg+Kymvnls6H83+tbO1iH/Cs1xZHP8OPwomyBavyXMq01axafWfkbBxXxMNL9C5yZ+7NRozw==",
+    "signed_at": "2026-03-11T00:23:42Z",
+    "signed_by": "bio-logic-enter-dgx-spark",
+    "verify": "https://bio-logic-enter.github.io/verify"
+  }
+}

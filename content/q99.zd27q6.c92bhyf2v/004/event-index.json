@@ -1,0 +1,1170 @@
+{
+  "schema": "bio-logic-enter/event-index/v1.0",
+  "content_key": "q99.zd27q6.c92bhyf2v.3.001.004.011",
+  "shooting_key": "q99.zd27q6.c92bhyf2v",
+  "segment_id": "D1-S04",
+  "shot_description": "Weitwinkel-Aufnahme Brücke mit bidirektionalem Verkehr über fliessendem Fluss, Stativ, Sony Alpha 7IV 12-24mm",
+  "duration": "10:09:29",
+  "frame_source": "C0411.MP4",
+  "total_events": 62,
+  "summary": {
+    "by_event_type": {
+      "traffic": 60,
+      "wildlife": 2
+    },
+    "by_direction": {
+      "fährt von links auf die Brücke in Fahrrichtung nach rechts in das Sichtfeld und fährt weiter aus dem Bild dann rechts wieder heraus": 1,
+      "Links -> Rechts": 23,
+      "unbestimmt": 3,
+      "Rechts -> Links": 19,
+      "Rechts -> Links PKW Farbe rot lackiert, Links -> Rechts PKW Farbe weiss/silber lackiert": 1,
+      "Links ->Rechts": 1,
+      "beidseitig fliessend": 12,
+      "Links": 1,
+      "Rechts hoch auf die Brücke am Fluss entlang": 1
+    },
+    "by_modality": {
+      "visuell+audio": 26,
+      "visuell": 35,
+      "audio": 1
+    },
+    "unique_tracked_objects": [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "P01",
+      "P02",
+      "P03",
+      "V01",
+      "V02",
+      "V03",
+      "V04",
+      "V05",
+      "V06",
+      "V07",
+      "V08",
+      "V09",
+      "V10",
+      "V11",
+      "V12"
+    ],
+    "time_range": {
+      "first_event": "00:00:00",
+      "last_event": "09:07:58"
+    }
+  },
+  "events": [
+    {
+      "event_nr": 1,
+      "timecode": "00:00:00",
+      "event_type": "traffic",
+      "object_keys": [
+        "V01"
+      ],
+      "direction": "fährt von links auf die Brücke in Fahrrichtung nach rechts in das Sichtfeld und fährt weiter aus dem Bild dann rechts wieder heraus",
+      "witnessed_by": "visuell+audio",
+      "modality": {
+        "visual": true,
+        "audio": true
+      },
+      "visual_description": "Flussbett mit fliessendem Wasser, rechts und links Flussufer Vegetation mit groben Kieselsteinen, noch kahlen Bäumen und braunen Sträuchern, darüber eine Brücke mit fliessendem Verkehr beidseitig einspurig mit geteiltem Fussgänger/Radweg auf beiden Seiten. Auf der linken Seite der Brücke sieht man einen fahrenen LKW mit leehrem Anhänger in schwarz lakiert mit weissen Beschriftungen. Auf der LKW Pritsche befinden sich Ladung unerkennbar was genau nur das es quadratisch und grün ist",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_001_original.png",
+      "notes": "LKW und Anhänger befinden sich alleine auf der Brücke ohne weitere Verkehrsteilnehmer"
+    },
+    {
+      "event_nr": 2,
+      "timecode": "00:02:02",
+      "event_type": "traffic",
+      "object_keys": [
+        "V01"
+      ],
+      "direction": "Links -> Rechts",
+      "witnessed_by": "visuell+audio",
+      "modality": {
+        "visual": true,
+        "audio": true
+      },
+      "visual_description": "schwarzer LKW mit Anhänger befindet sich auf der Mitte der Brücke",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_002_original.png",
+      "notes": "LKW und Anhänger befinden sich alleine auf der Brücke ohne weitere Verkehrsteilnehmer"
+    },
+    {
+      "event_nr": 3,
+      "timecode": "00:04:12",
+      "event_type": "traffic",
+      "object_keys": [
+        "V01"
+      ],
+      "direction": "Links -> Rechts",
+      "witnessed_by": "visuell+audio",
+      "modality": {
+        "visual": true,
+        "audio": true
+      },
+      "visual_description": "schwarzer LKW mit Anhänger befindet sich mittlerweile auf der rechten Seite der Brücke",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_003_original.png",
+      "notes": "bis ca. 00:05:14 ist schwarzer LKW mit Anhänger komplett auf der rechten Seite im Bild aus dem Sichtfeld und noch hörbar bis ca. 00:10:50"
+    },
+    {
+      "event_nr": 4,
+      "timecode": "00:05:14",
+      "event_type": "traffic",
+      "object_keys": null,
+      "direction": "unbestimmt",
+      "witnessed_by": "visuell+audio",
+      "modality": {
+        "visual": true,
+        "audio": true
+      },
+      "visual_description": "kein fliessender Verkehr beidseitig auf der Brücke, keine Fussgänger oder Radfahrer",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_004_original.png",
+      "notes": "bis ca. 00:15:15 erstes KFZ Farbe weiss/silber lackiert von Fahrtrichtung links nach rechts auf die Brücke fährt"
+    },
+    {
+      "event_nr": 5,
+      "timecode": "00:15:33",
+      "event_type": "traffic",
+      "object_keys": [
+        "V02"
+      ],
+      "direction": "Links -> Rechts",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Fahrtrichtung Links -> Rechts KFZ Farbe weiss/silber lackiert fährt auf Brücke",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_005_original.png",
+      "notes": "bis ca. 00:20:42 kommt auf rechter Brückenseite an und verlässt das Sichtfeld, weitere KFZ Fahrzeuge befinden sich nun auch auf der Brücke in beide Richtungen"
+    },
+    {
+      "event_nr": 6,
+      "timecode": "00:16:07",
+      "event_type": "traffic",
+      "object_keys": [
+        "V03"
+      ],
+      "direction": "Rechts -> Links",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Fahrtrichtung Rechts -> Links KFZ Farbe rot lakiert fährt auf die Brücke rechte Seite",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_006_original.png",
+      "notes": "bis ca. 00:21:25 kommt auf linker Brückenseite an und verlässt das Sichtfeld, weitere KFZ Fahrzeuge befinden sich nun auch auf der Brücke in beide Richtungen"
+    },
+    {
+      "event_nr": 7,
+      "timecode": "00:20:54",
+      "event_type": "traffic",
+      "object_keys": [
+        "V03",
+        "V02"
+      ],
+      "direction": "Rechts -> Links PKW Farbe rot lackiert, Links -> Rechts PKW Farbe weiss/silber lackiert",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Fahrtrichtung Rechts -> Links KFZ Farbe rot lackiert kommt auf linker Brückenseite an und fährt gleich aus dem Sichtfeld, Fahrtrichtung Links -> Rechts KFZ Farbe weiss/silber lackiert kommt auf rechter Seite der Brücke an und fährt weiter aus dem Sichtfeld",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_007_original.png",
+      "notes": "bis ca. 00:21:26 ist PKW Farbe rot lackiert aus dem Sichtfeld linke Seite der Brücke gefahren"
+    },
+    {
+      "event_nr": 8,
+      "timecode": "01:12:01",
+      "event_type": "traffic",
+      "object_keys": [
+        "C01"
+      ],
+      "direction": "Links -> Rechts",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Fahrtrichtung Links -> Rechts männlicher Radfahrer mit Helm und signalfarbenen Handschuhen fährt ins Sichtfeld auf der linken Seite der Brücke auf einem weissem Fahrrad mit schwarzen Gepäcktaschen/boxen montiert am Hinterrad",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_008_original.png",
+      "notes": "bis ca. 01:17:42 in der Mitte der Brücke angekommen"
+    },
+    {
+      "event_nr": 9,
+      "timecode": "01:17:42",
+      "event_type": "traffic",
+      "object_keys": [
+        "C01"
+      ],
+      "direction": "Links -> Rechts",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Fahrtrichtung Links -> Rechts Radfahrer ist in der Mitte der Brücke angekommen und trägt eine grau/weisse Jacke und schwarze/dunkle eng anliegende Hose",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_009_original.png",
+      "notes": "wird ca. bei 01:20:15 von einem schwarzen PKW mit roten Heckleuchten überholt und kommt ca. bei 01:23:51 auf der rechten Seite der Brücke an und fährt weiter aus dem Sichtfeld"
+    },
+    {
+      "event_nr": 10,
+      "timecode": "01:23:51",
+      "event_type": "traffic",
+      "object_keys": [
+        "C01"
+      ],
+      "direction": "Links ->Rechts",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Fahrtrichtung Links -> Rechts Radfahrer ist mittlerweile auf der rechten Seite der Brücke angekommen und fährt weiter aus dem Sichtfeld",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_010_original.png",
+      "notes": "bis ca. 01:25:08 auf der rechten Seite der Brücke aus dem Sichtfeld gefahren"
+    },
+    {
+      "event_nr": 11,
+      "timecode": "01:24:51",
+      "event_type": "traffic",
+      "object_keys": null,
+      "direction": "beidseitig fliessend",
+      "witnessed_by": "visuell+audio",
+      "modality": {
+        "visual": true,
+        "audio": true
+      },
+      "visual_description": "Fliessender Verkehr beidseitig",
+      "audio_description": "herannahende Landwirtschaftliche Maschine / Traktor, plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "notes": "bei ca. 01:31:57 ins Sichtfeld auf der rechten Seite der Brücke"
+    },
+    {
+      "event_nr": 12,
+      "timecode": "01:32:38",
+      "event_type": "traffic",
+      "object_keys": [
+        "V04"
+      ],
+      "direction": "Rechts -> Links",
+      "witnessed_by": "visuell+audio",
+      "modality": {
+        "visual": true,
+        "audio": true
+      },
+      "visual_description": "Fahrrichtung Rechts -> Links Landwirtschaftliche Maschine / Traktor fährt in das Sichtfeld auf der rechten Seite der Brücke, ist hell gelb/grün lackiert und zieht etwas rot lackiertes hinter sich her",
+      "audio_description": "lauter Motor der Landwirtschaftliche Maschine / Traktor, plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_011_original.png",
+      "notes": "bei ca. 01:40:00 kommt auf der Mitte der Brücke an"
+    },
+    {
+      "event_nr": 13,
+      "timecode": "01:39:44",
+      "event_type": "traffic",
+      "object_keys": [
+        "V04"
+      ],
+      "direction": "Rechts -> Links",
+      "witnessed_by": "visuell+audio",
+      "modality": {
+        "visual": true,
+        "audio": true
+      },
+      "visual_description": "Fahrtrichtung Rechts -> Links Landwirtschaftliche Maschine / Traktor + rot lackierter Anhänger kommen in der Mitte der Brücke an",
+      "audio_description": "lauter Motor der Landwirtschaftliche Maschine / Traktor, plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_012_original.png",
+      "notes": "bei ca. 01:45:30 kommt auf der linken Seite der Brücke an und fährt weiter aus dem Sichtfeld"
+    },
+    {
+      "event_nr": 14,
+      "timecode": "01:42:59",
+      "event_type": "traffic",
+      "object_keys": [
+        "C02"
+      ],
+      "direction": "Links -> Rechts",
+      "witnessed_by": "visuell+audio",
+      "modality": {
+        "visual": true,
+        "audio": true
+      },
+      "visual_description": "Fahrtrichtung Links -> Rechts Fahrradfahrer auf schwarz/dunklen e-Bike mit Gepäckkorb auf dem Gepäckträger des Hinterrades fährt von der linken Brückenseite kommend in das Sichtfeld",
+      "audio_description": "lauter Motor der Landwirtschaftliche Maschine / Traktor, plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_013_original.png",
+      "notes": "bis ca. 01:49:07 auf der Mitte der Brücke"
+    },
+    {
+      "event_nr": 15,
+      "timecode": "01:49:07",
+      "event_type": "traffic",
+      "object_keys": [
+        "C02"
+      ],
+      "direction": "Links -> Rechts",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Fahrtrichtung Links -> Rechts Fahrradfahrer ist weiblich, fährt auf einen eBike für Frauen und trägt eine weisse Mütze, einen rötlichen Mantel und bläulich/graue Schultertasche  die über der rechten Hüfte sitzt und ist mittlerweile auf der Mitte der Brücke angekommen",
+      "audio_description": "man hört den Motor der Landwirtschaftliche Maschine / Traktor leiser da es sich weiter entfernt, plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_014_original.png",
+      "notes": "bis ca. 01:56:02 auf der rechten Seite der Brücke angekommen"
+    },
+    {
+      "event_nr": 16,
+      "timecode": "01:56:02",
+      "event_type": "traffic",
+      "object_keys": [
+        "C02"
+      ],
+      "direction": "Links -> Rechts",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Fahrtrichtung Links -> rechts Fahrradfahrer weiblich auf eBike mit Gepäckkorb gekleidet mit weisser Mütze und rötlicher Jacke ist mittleweile auf der rechten Seite der Brücke angekommen",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_015_original.png",
+      "notes": "fährt weiter in Fahrtrichtung Links -> Rechts aus dem Sichtfeld, bei ca. 01:57:18 gefahren"
+    },
+    {
+      "event_nr": 17,
+      "timecode": "01:57:18",
+      "event_type": "traffic",
+      "object_keys": null,
+      "direction": "beidseitig fliessend",
+      "witnessed_by": "visuell+audio",
+      "modality": {
+        "visual": true,
+        "audio": true
+      },
+      "visual_description": "Fliessender Verkehr beidseitig",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus"
+    },
+    {
+      "event_nr": 18,
+      "timecode": "02:08:48",
+      "event_type": "traffic",
+      "object_keys": [
+        "V05"
+      ],
+      "direction": "beidseitig fliessend",
+      "witnessed_by": "visuell+audio",
+      "modality": {
+        "visual": true,
+        "audio": true
+      },
+      "visual_description": "Fliessender Verkehr beidseitig",
+      "audio_description": "herrannahende Motorräder, Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "notes": "zwei Motorräder kommend Fahrtrichtung Rechts -> Links ab ca. 02:09:12 rechte Seite der Brücke verdeckt durch Baum sichtbar und ab ca. 02:12:49 auf der Mitte der Brücke"
+    },
+    {
+      "event_nr": 19,
+      "timecode": "02:12:49",
+      "event_type": "traffic",
+      "object_keys": [
+        "V05"
+      ],
+      "direction": "beidseitig fliessend",
+      "witnessed_by": "visuell+audio",
+      "modality": {
+        "visual": true,
+        "audio": true
+      },
+      "visual_description": "Fahrrichtung Rechts -> Links zwei Motorräder, von den Fahrern nur die Helme sichtbar, kommen an der Mitte der Brücke an und fahren weiter in Richtung linke Brücken Seite",
+      "audio_description": "zwei vorbeifahrende Motorräder, Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_016_original.png",
+      "notes": "bei ca. 02:16:03 aus dem Sichtfeld"
+    },
+    {
+      "event_nr": 20,
+      "timecode": "02:16:03",
+      "event_type": "traffic",
+      "object_keys": null,
+      "direction": "beidseitig fliessend",
+      "witnessed_by": "visuell+audio",
+      "modality": {
+        "visual": true,
+        "audio": true
+      },
+      "visual_description": "Fliessender Verkehr beidseitig",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus"
+    },
+    {
+      "event_nr": 21,
+      "timecode": "02:27:58",
+      "event_type": "traffic",
+      "object_keys": [
+        "C03"
+      ],
+      "direction": "Links -> Rechts",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Fahrtrichtung Links -> Rechts Fahrradfahrer mit Kindersitz",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_017_original.png",
+      "notes": "bei ca. 02:34:38 in der Mitte der Brücke"
+    },
+    {
+      "event_nr": 22,
+      "timecode": "02:34:38",
+      "event_type": "traffic",
+      "object_keys": [
+        "C03"
+      ],
+      "direction": "Links -> Rechts",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Fahrtrichtung Links -> Rechts Fahrradfafhrer mit Kindersitz ist männlich, trägt eine dunkle Strickmütze, dunkle Jacke und dunkle/blaue Jeans, hat eine Gepäcktasche am Lenker montiert, der Kindersitz ist unbesetzt und ist mittlerweile in der Mitte der Brücke angenkommen",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_018_original.png",
+      "notes": "bei ca. 02:42:03 in Fahrtrichtung Links -> Rechts auf der rechten Seite der Brücke angekommen und"
+    },
+    {
+      "event_nr": 23,
+      "timecode": "02:41:56",
+      "event_type": "traffic",
+      "object_keys": [
+        "C03"
+      ],
+      "direction": "Links -> Rechts",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Fahrtrichtung Links -> Rechts Fahrradfahrer männlich mit leerem Kindersitz ist auf der rechten Seite der Brücke angekommen",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_019_original.png",
+      "notes": "ist bei ca. 02:43:17 aus dem Sichtfeld gefahren"
+    },
+    {
+      "event_nr": 24,
+      "timecode": "02:43:17",
+      "event_type": "traffic",
+      "object_keys": null,
+      "direction": "beidseitig fliessend",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "fliessender Verkehr beidseitig",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus"
+    },
+    {
+      "event_nr": 25,
+      "timecode": "04:30:47",
+      "event_type": "traffic",
+      "object_keys": [
+        "C04"
+      ],
+      "direction": "Links -> Rechts",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Fahrtrichtung Links -> Rechts Fahrradfahrer mit Helm und auffälliger Fahrradjacke in gelb/grau fährt auf der lnken Brückenseite ins Sichtfeld und hat seinen Frontfahrradstrahler an",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser und Vögelgezwitscher",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_020_original.png",
+      "notes": "bei ca. 04:38:04 auf der Mitte der Brücke"
+    },
+    {
+      "event_nr": 26,
+      "timecode": "04:38:04",
+      "event_type": "traffic",
+      "object_keys": [
+        "C04"
+      ],
+      "direction": "Links -> Rechts",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Fahrtrichtung Links -> Rechts Fahrradfahrer mit Helm und auffälliger Fahrradjacke in gelb/grau hat auf seinem Gepäckträger schwarz/dunkle Gepäcktaschen montiert und trägt eine schwarz/dunkle enganliegende Hose ist mittlerweile auf der Mitte der Brücke angekommen",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser und Vögelgezwitscher",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_021_original.png",
+      "notes": "bei ca. 04:46:04 in Fahrrichtung Links -> Rechts auf der rechten Seite der Brücke angekommen"
+    },
+    {
+      "event_nr": 27,
+      "timecode": "04:46:04",
+      "event_type": "traffic",
+      "object_keys": [
+        "C04"
+      ],
+      "direction": "Links -> Rechts",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Fahrtrichtung Links -> Rechts männlicher Fahrradfahrer mit Helm und auffälliger gelb/grauer Fahrradjacke ist mittlerweile auf der rechten Seite der Brücke angekommen",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_022_original.png",
+      "notes": "verlässt bei ca. 04:47:50 das Sichtfeld"
+    },
+    {
+      "event_nr": 28,
+      "timecode": "04:47:50",
+      "event_type": "traffic",
+      "object_keys": null,
+      "direction": "beidseitig fliessend",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Fliessender Verkehr beidseitig",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus"
+    },
+    {
+      "event_nr": 29,
+      "timecode": "05:03:12",
+      "event_type": "traffic",
+      "object_keys": [
+        "P01"
+      ],
+      "direction": "Rechts -> Links",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Fahrtrichtung Rechts -> Links männlicher Fussgänger auf der rechten Seite der Brücke hinter den Bäumen",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_023_original.png",
+      "notes": "bis ca. 05:30:22 auf der Mitte der Brücke"
+    },
+    {
+      "event_nr": 30,
+      "timecode": "05:30:22",
+      "event_type": "traffic",
+      "object_keys": [
+        "P01"
+      ],
+      "direction": "Rechts -> Links",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Fahrtrichtung Rechts -> Links Fussgänger von der rechten Seite der Brücke kommend mittlerweile Mitte der Brücke angenommen, trägt eine rote Strickmütze, eine dunkle/schwarze Jacke und blaue Jeans",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_024_original.png",
+      "notes": "bis ca. 05:53:00 auf der linken Brücken Seite an"
+    },
+    {
+      "event_nr": 31,
+      "timecode": "05:38:00",
+      "event_type": "traffic",
+      "object_keys": [
+        "P01"
+      ],
+      "direction": "beidseitig fliessend",
+      "witnessed_by": "visuell+audio",
+      "modality": {
+        "visual": true,
+        "audio": true
+      },
+      "visual_description": "Fliessender Verkehr beidseitig, männlicher Fussgänger in Richtung Rechts -> Links auf der Brücke unterwegs",
+      "audio_description": "herrannahender LKW, plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "notes": "ab ca. 05:38:39 in Fahrtrichtung Rechts -> Links auf der rechten Brücken Seite im Sichtfeld"
+    },
+    {
+      "event_nr": 32,
+      "timecode": "05:38:39",
+      "event_type": "traffic",
+      "object_keys": [
+        "V06"
+      ],
+      "direction": "Rechts -> Links",
+      "witnessed_by": "visuell+audio",
+      "modality": {
+        "visual": true,
+        "audio": true
+      },
+      "visual_description": "Fahrtrichtung Rechts -> Links weisser LKW fahrt auf die rechte Seite der Brücke",
+      "audio_description": "LKW Motor, plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_025_original.png",
+      "notes": "bei ca. 05:41:53 Fahrtrichtung Rechts -> Links weisser LKW Mitte der Brücke angekommen von rechter Brücken Seite aus kommend"
+    },
+    {
+      "event_nr": 33,
+      "timecode": "05:41:53",
+      "event_type": "traffic",
+      "object_keys": [
+        "V06",
+        "P01"
+      ],
+      "direction": "Rechts -> Links",
+      "witnessed_by": "visuell+audio",
+      "modality": {
+        "visual": true,
+        "audio": true
+      },
+      "visual_description": "Fahrtrichtung Rechts -> Links weisser LKW mittlerweile Brücke Mitte angekommen",
+      "audio_description": "LKW Motor, plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_026_original.png",
+      "notes": "bei ca. 05:43:16 überholt weisser LKW in Fahrtrichtung Rechts -> Links den männlichen Fussgänger auch gehende Rechts -> Links und weisser LKW kommt bei ca. 05:44:20 auf der linken Seite der Brücke an"
+    },
+    {
+      "event_nr": 34,
+      "timecode": "05:44:32",
+      "event_type": "traffic",
+      "object_keys": [
+        "V06",
+        "P01"
+      ],
+      "direction": "Rechts -> Links",
+      "witnessed_by": "visuell+audio",
+      "modality": {
+        "visual": true,
+        "audio": true
+      },
+      "visual_description": "Fahrtrichtung Rechts -> Links weisser LKW kommt auf der linken Seite der Brücke an, hat männlichen Fussgänger überholt",
+      "audio_description": "LKW Motor, plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_027_original.png",
+      "notes": "ab ca. 05:45:22 ist weisser LKW in Fahrtrichtung Rechts -> Links aus dem Sichtfeld gefahren"
+    },
+    {
+      "event_nr": 35,
+      "timecode": "05:52:57",
+      "event_type": "traffic",
+      "object_keys": [
+        "P01"
+      ],
+      "direction": "Rechts -> Links",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Fahrtrichtung Rechts -> Links männlicher Fussgänger kommt an der linken Seite der Brücke an",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_028_original.png",
+      "notes": "ab ca. 05:54:38 ist männlicher Fussgänger in Fahrtrichtung Rechts -> Links aus dem Sichtfeld gegangen"
+    },
+    {
+      "event_nr": 36,
+      "timecode": "05:54:38",
+      "event_type": "traffic",
+      "object_keys": null,
+      "direction": "beidseitig fliessend",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "fliessender Verkehr beidseitig",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus"
+    },
+    {
+      "event_nr": 37,
+      "timecode": "05:59:01",
+      "event_type": "traffic",
+      "object_keys": [
+        "P02",
+        "P03"
+      ],
+      "direction": "Links -> Rechts",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Fahrtrichtung Links -> Rechts zwei weibliche Fussgänger betreten die linke Seite der Brücke",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_029_original.png",
+      "notes": "bei ca. 06:25:52 in Fahrtrichtung Links -> Rechts in der Mitte der Brücke"
+    },
+    {
+      "event_nr": 38,
+      "timecode": "06:25:52",
+      "event_type": "traffic",
+      "object_keys": [
+        "P02",
+        "P03"
+      ],
+      "direction": "Links -> Rechts",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Fahrtrichtung Links -> Rechts zwei weibliche Fussgänger, eine trägt davon eine weisse Jacke und eine grüne Hose, die andere weibliche Fussgängerin trägt dunkle Bekleidung sind mittlerweile in der Mitte der Brücke angenkommen",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_030_original.png",
+      "notes": "bei ca. 06:53:43 sind beide weibliche Fussgänger auf der rechten Seite der Brücke angekommen"
+    },
+    {
+      "event_nr": 39,
+      "timecode": "06:53:43",
+      "event_type": "traffic",
+      "object_keys": [
+        "P02",
+        "P03"
+      ],
+      "direction": "Links -> Rechts",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Fahrtrichtung Links -> Rechts kommen die zwei weiblichen Fussgänger mittlerweile auf der rechten Seite der Brücke an",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_031_original.png",
+      "notes": "ab ca. 06:59:09 aus dem Sichtfeld gegangen"
+    },
+    {
+      "event_nr": 40,
+      "timecode": "06:58:31",
+      "event_type": "traffic",
+      "object_keys": [
+        "V07"
+      ],
+      "direction": "Links -> Rechts",
+      "witnessed_by": "visuell+audio",
+      "modality": {
+        "visual": true,
+        "audio": true
+      },
+      "visual_description": "Fahrtrichtung Links -> Rechts weisser kastenförmiger Kleintransporter mit auffälliger seitlicher Beklebung in schwarz/gelb fährt in das Sichtfeld auf der linken Seite der Brücke",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_032_original.png",
+      "notes": "ab ca. 07:00:48 kommt weisser kastenförmiger Kleintransporter auf der Mitte der Brücke in Fahrtrichtung Links -> Rechts an"
+    },
+    {
+      "event_nr": 41,
+      "timecode": "07:00:48",
+      "event_type": "traffic",
+      "object_keys": [
+        "V07"
+      ],
+      "direction": "Links -> Rechts",
+      "witnessed_by": "visuell+audio",
+      "modality": {
+        "visual": true,
+        "audio": true
+      },
+      "visual_description": "Fahrtrichtung Links -> Rechts weisser kastenförmiger Kleintransporter mit auffälliger seitlicher Beklebung in schwarz/gelb kommt in der Mitte der Brücke an",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_033_original.png",
+      "notes": "ab ca. 07:03:39 auf der rechten Seite der Brücke"
+    },
+    {
+      "event_nr": 42,
+      "timecode": "07:03:39",
+      "event_type": "traffic",
+      "object_keys": [
+        "V07"
+      ],
+      "direction": "Links -> Rechts",
+      "witnessed_by": "visuell+audio",
+      "modality": {
+        "visual": true,
+        "audio": true
+      },
+      "visual_description": "Fahrtrichtung Links -> Rechts weisser kastenförmiger Kleintransporter mit auffälliger seitlicher Beklebung in schwarz/gelb kommt an der rechten Seite der Brücke an",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_034_original.png",
+      "notes": "ab ca. 07:04:18 ist weisser kastenförmiger Kleintransporter mit auffälliger seitlicher Beklebung in schwarz/gelb aus dem Sichtfeld gefahren"
+    },
+    {
+      "event_nr": 43,
+      "timecode": "07:04:18",
+      "event_type": "traffic",
+      "object_keys": null,
+      "direction": "beidseitig fliessend",
+      "witnessed_by": "visuell+audio",
+      "modality": {
+        "visual": true,
+        "audio": true
+      },
+      "visual_description": "Fliessender Verkehr beidseitig",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus"
+    },
+    {
+      "event_nr": 44,
+      "timecode": "07:15:57",
+      "event_type": "traffic",
+      "object_keys": [
+        "V08"
+      ],
+      "direction": "Rechts -> Links",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Fahrtrichtung Rechts -> Links fährt ein PKW mit einer auf dem Dach montierten schwarz/dunklen Hartschalen Dachbox in das Sichtfeld auf der rechten Seite der Brücke teils verdeckt durch einen noch kahlen Baum",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_035_original.png",
+      "notes": "ab ca. 07:19:17 Mitte der Brücke"
+    },
+    {
+      "event_nr": 45,
+      "timecode": "07:19:17",
+      "event_type": "traffic",
+      "object_keys": [
+        "V08"
+      ],
+      "direction": "Rechts -> Links",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Fahrtrichtung Rechts -> Links PKW mit Hartschalen Dachbox kommt an der Mitte der Brücke an",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_036_original.png",
+      "notes": "ab ca. 07:22:03 in Fahrtrichtung Rechts -> Links auf der linken Seite der Brücke"
+    },
+    {
+      "event_nr": 46,
+      "timecode": "07:22:03",
+      "event_type": "traffic",
+      "object_keys": [
+        "V08"
+      ],
+      "direction": "Rechts -> Links",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Fahrtrichtung Rechts -> Links PKW mit Hartschalen Dachbox kommt an der rechten Seite der Brücke an",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_037_original.png",
+      "notes": "ab ca. 07:22:24 ausserhalb des Sichtfelds"
+    },
+    {
+      "event_nr": 47,
+      "timecode": "07:25:22",
+      "event_type": "wildlife",
+      "object_keys": null,
+      "direction": "unbestimmt",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "kein Verkehr auf der Brücke",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser und Vögelgezwitscher"
+    },
+    {
+      "event_nr": 48,
+      "timecode": "07:35:27",
+      "event_type": "traffic",
+      "object_keys": [
+        "V09"
+      ],
+      "direction": "Links",
+      "witnessed_by": "audio",
+      "modality": {
+        "visual": false,
+        "audio": true
+      },
+      "visual_description": "kein Verkehr auf der Brücke",
+      "audio_description": "herrannahender Motor von Sprinter-Transporter, plätscherndes vorbei fliessendes Wasser und Vögelgezwitscher",
+      "notes": "ab ca. 07:37:13 Fahrrichtung Links -> Rechts grauer Sprinter-Transporter auf der linken Seite der Brücke im Sichtfeld"
+    },
+    {
+      "event_nr": 49,
+      "timecode": "07:37:13",
+      "event_type": "traffic",
+      "object_keys": [
+        "V09"
+      ],
+      "direction": "Links -> Rechts",
+      "witnessed_by": "visuell+audio",
+      "modality": {
+        "visual": true,
+        "audio": true
+      },
+      "visual_description": "Fahrtrichtung Links -> Rechts grauer Sprinter-Transporter fährt in das Sichtfeld auf der linken Seite der Brücke",
+      "audio_description": "Motor von Sprinter-Transporter, plätscherndes vorbei fliessendes Wasser und Vögelgezwitscher",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_038_original.png",
+      "notes": "ab ca. 07:39:11 Mitte der Brücke"
+    },
+    {
+      "event_nr": 50,
+      "timecode": "07:39:11",
+      "event_type": "traffic",
+      "object_keys": [
+        "V09"
+      ],
+      "direction": "Links -> Rechts",
+      "witnessed_by": "visuell+audio",
+      "modality": {
+        "visual": true,
+        "audio": true
+      },
+      "visual_description": "Fahrtrichtung Links -> Rechts grauer Sprinter-Transporter kommt in der Mitte der Brücke an und ist der einzige Verkehrsteilnehmer auf der Brücke",
+      "audio_description": "Motor von Sprinter-Transporter, plätscherndes vorbei fliessendes Wasser und Vögelgezwitscher",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_039_original.png",
+      "notes": "ab ca. 07:41:22 Fahrtrichtung Links -> Rechts kommt grauer Sprinter-Transporter auf der rechten Seite der Brücke an"
+    },
+    {
+      "event_nr": 51,
+      "timecode": "07:41:22",
+      "event_type": "traffic",
+      "object_keys": [
+        "V09",
+        "V10"
+      ],
+      "direction": "Links -> Rechts",
+      "witnessed_by": "visuell+audio",
+      "modality": {
+        "visual": true,
+        "audio": true
+      },
+      "visual_description": "Fahrtrichtung Links -> Rechts grauer Sprinter-Transport kommt auf der rechten Seite der Brücke an, mittlerweile fährt dahinter ein grau/silberner kleiner PKW dahinter",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_040_original.png",
+      "notes": "ab ca. 07:42:08 ist grauer Sprinter-Transporter aus dem Sichtfeld gefahren"
+    },
+    {
+      "event_nr": 52,
+      "timecode": "07:44:51",
+      "event_type": "wildlife",
+      "object_keys": null,
+      "direction": "unbestimmt",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "kein Verkehr auf der Brücke",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser und Vögelgezwitscher",
+      "notes": "bis ca. 07:55:35 erste KFZ fahren wieder auf die Brücke kommend von Fahrtrichtung Rechts -> Links auf der rechten Brücken Seite"
+    },
+    {
+      "event_nr": 53,
+      "timecode": "07:55:35",
+      "event_type": "traffic",
+      "object_keys": [
+        "V11"
+      ],
+      "direction": "Rechts -> Links",
+      "witnessed_by": "visuell+audio",
+      "modality": {
+        "visual": true,
+        "audio": true
+      },
+      "visual_description": "fliessender Verkehr Fahrtrichtung Rechts -> Links mehrere KFZ: 1 weisser Transporter und 5 PKW",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus"
+    },
+    {
+      "event_nr": 54,
+      "timecode": "08:13:45",
+      "event_type": "traffic",
+      "object_keys": [
+        "V12"
+      ],
+      "direction": "Rechts -> Links",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Fahrtrichtung Rechts -> Links PKW mit schwarz/dunklen Hartschalen Dachzelt auf dem Dach monitiert fährt in das Sichtfeld verdeckt von dem noch kahlen Baum auf der rechten Brücken Seite",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_041_original.png",
+      "notes": "ab ca. 08:16:59 Mitte der Brücke"
+    },
+    {
+      "event_nr": 55,
+      "timecode": "08:16:59",
+      "event_type": "traffic",
+      "object_keys": [
+        "V12"
+      ],
+      "direction": "Rechts -> Links",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Fahrtrichtung Rechts -> Links PKW mit schwarz/dunklen Hartschalen Dachzelt auf dem Dach monitiert kommt Mitte der Brücke an",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_042_original.png",
+      "notes": "ab ca. 08:20:48 in Fahrtrichtung Rechts -> Links auf der linken Seite der Brücke"
+    },
+    {
+      "event_nr": 56,
+      "timecode": "08:20:48",
+      "event_type": "traffic",
+      "object_keys": [
+        "V12"
+      ],
+      "direction": "Rechts -> Links",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Fahrtrichtung Rechts -> Links PKW mit schwarz/dunklen Hartschalen Dachzelt auf dem Dach monitiert kommt an der linken Seite der Brücke an",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_043_original.png",
+      "notes": "ab ca. 08:21:35 aus dem Sichtfeld in Fahrtrichtung Rechts -> Links gefahren"
+    },
+    {
+      "event_nr": 57,
+      "timecode": "08:21:35",
+      "event_type": "traffic",
+      "object_keys": null,
+      "direction": "beidseitig fliessend",
+      "witnessed_by": "visuell+audio",
+      "modality": {
+        "visual": true,
+        "audio": true
+      },
+      "visual_description": "Fliessender Verkehr beidseitig",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus"
+    },
+    {
+      "event_nr": 58,
+      "timecode": "08:31:46",
+      "event_type": "traffic",
+      "object_keys": [
+        "C05"
+      ],
+      "direction": "Rechts hoch auf die Brücke am Fluss entlang",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Unterhalb der Brücke auf der rechten Seite fährt ein Radfahrer entlang am Fluss auf einem Radweg hoch zur Brücke",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_044_original.png",
+      "notes": "ab ca. 08:53:47 befindet sich der Fahrradfahrer oberhalb auf der rechten Seite der Brücke auf dem Fahrradweg Fahrtrichtung Rechts -> Links"
+    },
+    {
+      "event_nr": 59,
+      "timecode": "08:53:47",
+      "event_type": "traffic",
+      "object_keys": [
+        "C05"
+      ],
+      "direction": "Rechts -> Links",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Fahrtrichtung Rechts -> Links der Fahrradfahrer ist mittlerweile über den Radweg der hoch auf die rechte Seite der Brücke führt nun auf der Brücke und fährt weiter in Richtung der linken Seite der Brücke, man sieht nur den weissen Helm vom Fahrradfahrer",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_045_original.png",
+      "notes": "ab ca. 09:00:26 befindet sich der Fahrradfahrer auf der Mitte der Brücke und fährt weiter in Fahrtrichtung Rechts -> Links"
+    },
+    {
+      "event_nr": 60,
+      "timecode": "09:00:26",
+      "event_type": "traffic",
+      "object_keys": [
+        "C05"
+      ],
+      "direction": "Rechts -> Links",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Fahrtrichtung Rechts -> Links der Fahrradfahrer ist nun in der Brücke angekommen, man erkennt weiterhin nur den weissen Fahrradhelm",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_046_original.png",
+      "notes": "ab ca. 09:06:44 befindet sich der Fahrradfahrer auf der Mitte der Brücke und fährt weiter in Fahrtrichtung Rechts -> Links"
+    },
+    {
+      "event_nr": 61,
+      "timecode": "09:06:44",
+      "event_type": "traffic",
+      "object_keys": [
+        "C05"
+      ],
+      "direction": "Rechts -> Links",
+      "witnessed_by": "visuell",
+      "modality": {
+        "visual": true,
+        "audio": false
+      },
+      "visual_description": "Fahrtrichtung Rechts -> Links der Fahrradfahrer ist nun auf der linken Seite der Brücke angekommen, man erkennt weiterhin nur den weissen Fahrradhelm",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "reference_image": "2026-03-04_content-screenshot_shot-04_047_original.png",
+      "notes": "ab ca. 09:07:58 ist der Fahrradfahrer aus dem Sichtfeld gefahren"
+    },
+    {
+      "event_nr": 62,
+      "timecode": "09:07:58",
+      "event_type": "traffic",
+      "object_keys": null,
+      "direction": "beidseitig fliessend",
+      "witnessed_by": "visuell+audio",
+      "modality": {
+        "visual": true,
+        "audio": true
+      },
+      "visual_description": "Fliessender Verkehr beidseitig",
+      "audio_description": "Plätscherndes vorbei fliessendes Wasser, Vögelgezwitscher und Geräuschkullisse fliessender vorbei fahrender Verkehr von der in der nähe stehenden Brücke aus",
+      "notes": "bis Ende 10:09:29"
+    }
+  ],
+  "provenance": {
+    "source": "creator-review-protocol Excel sheet D1-S04",
+    "generated_by": "Complete regeneration from Excel ground truth data",
+    "ai_co_creators": [
+      {
+        "co_creator_name": "Wellenschlag",
+        "model": "claude-opus-4-6",
+        "platform": "cowork-macos",
+        "contribution": "Original event-index structure design and initial Excel translation"
+      },
+      {
+        "co_creator_name": "Flussschicht",
+        "model": "claude-opus-4-6",
+        "platform": "cowork-macos",
+        "contribution": "Complete regeneration with full German descriptions, audio descriptions, and cleaned event structure"
+      }
+    ]
+  },
+  "terms_reference": {
+    "terms": "bio-logic-enter/terms/v1.0",
+    "terms_version": "1.0.0",
+    "terms_file": "terms.json",
+    "copyright": "© 2026 Bio-Logic Enter. All rights reserved.",
+    "license_summary": "Non-exclusive perpetual machine-training license. Machine-consumption only. Creator zone segments excluded.",
+    "full_terms": "See terms.json in content session root directory"
+  },
+  "attestation": {
+    "version": "1.0",
+    "method": "tpm2-rsassa-sha256",
+    "content_hash": "d28e7acab52e81af5227843db986416a67babcd82368b5e9ac75d5ba7ae17269",
+    "sig": "1DLIK1JcTD5NT3nZzvAP4Vopdmipc7FridsntxCXmfynIRnyWCjS0qu0u+JeOrL1+fZKjJlRWMEEre1bMiVv5HJFW0qwI2NSLeyOE+HWRD+y1mcU4s59YqiUSD12Tw+EeYJm/uYkSY7fAV/SJ9BsIBsrp+FZKTETDAypgNd8J3upoFPNgNmDRNTYe3LuY1S5gzl3Jsu25AFlch08OUd59cDnF5AQtxQ04qyoCnT328wO78myGj1BoJidC84Qh43RiGAnRnQAD44rAshKdjLHl8ZcSBXKBVSNbtIYrhih5nMbQrMOQpxaqgXzTswB8sYVJ2dwPNB9K0hArsQd3oyFjQ==",
+    "signed_at": "2026-03-11T00:24:23Z",
+    "signed_by": "bio-logic-enter-dgx-spark",
+    "verify": "https://bio-logic-enter.github.io/verify"
+  }
+}
