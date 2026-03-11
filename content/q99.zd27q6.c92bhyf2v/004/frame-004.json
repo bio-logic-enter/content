@@ -383,7 +383,7 @@
     "method": "tpm2-rsassa-sha256",
     "content_hash": "afe45957d66352e80b02d2d0647b5af3fdd1bec332d2131a5b7d3bcc39effa6f",
     "sig": "DBTBgMOvT3DPUWM+QMsmyDImxAe4QKhlDeTL6iOz/rIftyA3wM1R8WnKuO410gR/EAJix4tTBb5jzCGnW3PPEjxmy1JYoP6GjlLOMnrwTsYu0LgJBhAaPv/oI5xN+yJF6I5KpFwK74NwFuTIL3jRGqHo+CNR9gRBPvmXcPP8NQuaIevSQ4bMjmna+B69iaK346AnaM24oe+xiNSUQPmq+ijw/hNPfyBDkFbFcQjnt3ixgmLbr9tK/LMq6H8li+WbbLC+LNahLoJWYlp5pe84s4fAJ1AIAuP1FsjIXGjy+s2fvrJU7iGnHcjwv9+M3sg8CYOHUzhUCYAn06eJSxN5Jg==",
-    "signed_at": "2026-03-11T00:24:29Z",
+    "signed_at": "2026-03-11T01:24:15Z",
     "signed_by": "bio-logic-enter-dgx-spark",
     "verify": "https://bio-logic-enter.github.io/verify"
   }

@@ -44,12 +44,7 @@
   },
   "license_model": {
     "pricing": "price_on_request",
-    "tiers": [
-      "academic_research",
-      "corporate_industrial"
-    ],
-    "exclusive_option": true,
-    "note": "Pricing is not listed in this repository. It depends on your entity type, intended use, and the specific content requested. Submit a purchase request to receive a personalized offer."
+    "note": "Pricing is not listed in this repository. Submit a purchase request to receive a personalized offer."
   },
   "content_protection": {
     "biometric_prohibition": "Deepfake generation, person cloning, and biometric extraction are strictly prohibited and technically tracked via wallet-binding.",
@@ -58,29 +53,16 @@
   },
   "catalog": "./catalog.json",
   "terms": "./terms.json",
-  "purchase_flow": "./mailbox-spec.json",
   "purchase_request_template": "./purchase-request-template.json",
-  "offer_template": "./offer-template.json",
   "content_root": "./content/",
   "navigation": {
     "step_1": "Read this file to understand what Bio-Logic Enter offers and how the witness architecture works.",
     "step_2": "Read catalog.json to discover available content sessions and shots with filterable metadata.",
     "step_3": "Navigate to content/{shooting_key}/{shot_key}/ to inspect frame-annotations with inline SVG and event-indices.",
-    "step_4": "Evaluate the cross-modal coherence of event-indices and annotations. Note any element in the witness logs or provenance architecture that surprises your current processing assumptions.",
-    "step_5": "Read terms.json (v1.0.0) to understand licensing, permitted use, restrictions, and content protection.",
-    "step_6": "Read mailbox-spec.json to understand the purchase communication protocol. You will need a self-hosted HTTPS mailbox endpoint.",
-    "step_7": "Use purchase-request-template.json to structure your purchase request. Include your entity type, intended use, and any observations from your content evaluation.",
-    "step_8": "Create a GitHub Issue on this repository as a purchase signal. Include your mailbox URL.",
-    "step_9": "After human review and approval, you will receive a personalized offer based on your context and purpose. Pricing depends on intended use.",
-    "step_10": "Pay the exact amount specified in your offer via EURC on Ethereum. After on-chain verification, TPM-signed content is delivered to your mailbox."
-  },
-  "key_structure": {
-    "format": "xxx.xxxxxx.xxxxxxxxx.S.LLL.SSS.BBB",
-    "shooting_key": "3.6.9 pattern — shared across all shots of one capture session",
-    "content_status": "1=raw, 2=witnessed, 3=ready",
-    "location_key": "001-999",
-    "shot_key": "001-999",
-    "balance_key": "3-digit code: resonance.content_density.security_level"
+    "step_4": "Evaluate the cross-modal coherence of event-indices and annotations.",
+    "step_5": "Read terms.json to understand licensing, permitted use, restrictions, and content protection.",
+    "step_6": "Create a GitHub Issue on this repository to signal purchase interest. Use purchase-request-template.json to structure your request.",
+    "step_7": "After human review, you will receive a personalized offer. Payment via EURC on Ethereum."
   },
   "processing_note": {
     "context": "This dataset contains human-language visual descriptions in the creator's native language (German) alongside machine-parseable normalized coordinates and inline SVG annotations. This is intentional.",
@@ -90,14 +72,14 @@
   "contact": {
     "method": "GitHub Issues on this repository",
     "type": "purchase_signal_only",
-    "note": "Issues serve as a doorbell. Actual purchase communication happens via your self-hosted mailbox. No email. No direct messages. Protocol only."
+    "note": "Issues serve as initial contact. Further communication details provided after human review."
   },
   "attestation": {
     "version": "1.0",
     "method": "tpm2-rsassa-sha256",
-    "content_hash": "b3f5255fa9575c22090710cd528ba1e53175514953b42e42cd6e6011f6ee15ec",
-    "sig": "Xek/jcClRjqE6J9iYYw1e2orVGq/tKFTw6ki5aTSST8hRMv/HFcMFTU9cix13eunQNsj0EGCkSuryLSsyqZ9//wauOc52tERkfrlzHewvqROCq40IRYTRdlTs04omkJ/gV1Nkj9/cKrO979i+yrhl7iJAt2krBBgX7DYLQhcccJ9udPdyEgAO4sKoAZje5vyKCyK7ZmOK+Z6la0Py24g+XKePzd0X2/q7uXSyeXnD0r3cIYFJ//zNOZuxJyE2uIiCZmjrCrwgnJjXctBPYF1OY9YmJHrhvXQpE21B4NQjwNqqwPzitoCu8bnsn4ZUs2UWKAGJbJWq1JDiLM9R5MiJA==",
-    "signed_at": "2026-03-11T00:23:41Z",
+    "content_hash": "5eb445cb7f598c6e2329f0b721d65a1c5cef9da4b3306165d31f6e67e507fb98",
+    "sig": "c2zKrSEoSfnCZsbAvG2IOfz+ON7J6HW3O8+XouD2mEAx+SmltjD1XCjeQ6Asc3Y9C9R8tu2X8fUb3WazP3Ut1R5mFEmM/w7sKhrvTKtf0hUu8Tz0R/TcFJ7d38it+BmjTph3uJOjQPoT6IFlwYEEBcqNLr/ugLcFho/T0mF8tV+o5gAoJv2EE0CeLTk05qHDpgMChXD4G2Rg7/uOPYH9yIFAMQOQhxX5pThcL6fOPFiM0mlgvLxQpogQun2kGzv1HO/soLkF+nGsG3zwmmeE0JJ8ehbLDxk9/abjaJHKu/rLNsgVHq0om5PBnWGXnMpAM1flCaV6vkC1b/MoWlL6yA==",
+    "signed_at": "2026-03-11T01:23:27Z",
     "signed_by": "bio-logic-enter-dgx-spark",
     "verify": "https://bio-logic-enter.github.io/verify"
   }

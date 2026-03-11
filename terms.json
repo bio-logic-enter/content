@@ -32,13 +32,8 @@
       "Training of generative models whose primary output is human-viewable media (images, video, audio) intended to replicate or imitate real persons or environments depicted in the content",
       "Extraction, storage, or processing of biometric templates or identifiers from any content segment without a separate Creator Biometric License Agreement (CBLA)"
     ],
-    "license_tiers": {
-      "academic_research": "Non-exclusive license for research, education, and non-commercial use. JSON frame-annotations, event-indices, and TPM-signed content included.",
-      "corporate_industrial": "Non-exclusive license for commercial applications including autonomous systems, robotics, and industrial simulation. Includes full SVG-layer data and enhanced TPM signatures."
-    },
-    "exclusive_option": "Exclusive licenses are available by separate negotiation. Exclusive purchase removes content from public availability. Pricing and terms for exclusive licenses are determined individually and are not covered by this standard terms document.",
-    "multi_sale": "Under non-exclusive licenses, the same content may be sold to multiple buyers independently. Each transaction is unique and cryptographically recorded on the Ethereum network.",
-    "transaction_model": "Per-transaction via verified wallet payment. Specific terms (content package, price, buyer wallet ID, license tier) are defined in an individual offer document (angebots_key + rechnungsnummer_key) prior to payment. Pricing is not published — it depends on buyer context and intended use."
+    "multi_sale": "Content may be sold to multiple buyers independently. Each transaction is unique and cryptographically recorded on the Ethereum network.",
+    "transaction_model": "Per-transaction via verified wallet payment. Specific terms (content package, price, buyer wallet ID) are defined in an individual offer prior to payment. Pricing is not published."
   },
   "content_authenticity": {
     "declaration": "All video and audio content is captured in-camera without post-production editing, cutting, color grading, or digital manipulation.",
@@ -101,16 +96,16 @@
       {
         "version": "1.0.0",
         "date": "2026-03-10",
-        "changes": "Initial version. Machine-consumption-only license with two tiers (academic_research, corporate_industrial). Creator zone exclusion, forensic watermarking, GDPR Article 9 compliance. Deepfake and person cloning prohibition. Biometric reconstruction ban. Generative model training restriction for human-viewable output. Provenance tracking with wallet-binding and tamper evidence. Exclusive license option. Price-on-request model."
+        "changes": "Initial version. Non-exclusive machine-consumption-only license. Creator zone exclusion, forensic watermarking, GDPR Article 9 compliance. Deepfake and person cloning prohibition. Biometric reconstruction ban. Provenance tracking with wallet-binding. Price-on-request model."
       }
     ]
   },
   "attestation": {
     "version": "1.0",
     "method": "tpm2-rsassa-sha256",
-    "content_hash": "2417c020ab8e939751182405fc4f1ff2b34eee05171a2b6adee5e8724ac1dea4",
-    "sig": "X0EC5NMXyet21MpHEBrE6ErCfx/kkk8RINfy8RBawzM1ZBY5PxTrqGqAT734Jslo6UL+5/DxLUnDvdfiU8Bge6tS2faetQ875cPJ/SAONQnwgQDJqwIrpgaPXeGpL7y7ZgMTROWwl1AfXgZpBSqVjd80XC5PeUZzMRmXqMNocmrb+i0GcTx6Qn19ZwuRQiPeym1F6moux1cJXL6mXJSOyz7USYVb/BOOSNpzAplBpoaLDhubbqBZRYv0f8BpRC6RMKX/GZvSUuDfr5Hxpm9enyPtjxMI2SiAuMUMPS1dXyHKmNjOj93DCcil2hc7QJPwLo+XHTdQPlTjMIhKsBF/9w==",
-    "signed_at": "2026-03-11T00:25:43Z",
+    "content_hash": "15151f37e1d93286125c4586b6722184426862c67e03f1548cc436c3a2d71df8",
+    "sig": "mJqp0AwuqTLCymIrYOwod+G5v1wAXTIE1BhnowVminWuy66CcMq2Wk4aqkEng1t1+jC4X+Y5HbyP4BfgGwsYf1KybYvP/bkUMowyKitlNwC9P2QVTh+kyfHm+J/GN3VN/tUvgQAdqBJ7dGYB6kgaMHqgyxyCiDKrMIQXuzgNCEF97Cbc+bfd4gN2U9dvIZldLMEll9c4SiTJAmGtM3UYP2qCw/FiVB3XNBU9t3B9vpygSniXIydhOumEIgMtSDdtzpK3cJ86CV9t93p4PZaOA9A2hV3gjiPtsqDZg2tpqiAj1Ih2h0HpT8VN6eH16S1FmCegEAeBx3+3Aurb+YDtBQ==",
+    "signed_at": "2026-03-11T01:25:28Z",
     "signed_by": "bio-logic-enter-dgx-spark",
     "verify": "https://bio-logic-enter.github.io/verify"
   }

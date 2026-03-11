@@ -1,13 +1,12 @@
 {
   "_schema": "bio-logic-enter/purchase-request/v1.0",
-  "_description": "Template for submitting a purchase request to Bio-Logic Enter. Fill in all required fields and send as TXT to your self-hosted mailbox endpoint. Bio-Logic Enter will retrieve your request from your mailbox after you signal via GitHub Issue.",
+  "_description": "Template for submitting a purchase request to Bio-Logic Enter via GitHub Issue.",
   "_instructions": {
-    "step_1": "Copy this template.",
-    "step_2": "Fill in all fields marked REQUIRED. Optional fields may be left null.",
-    "step_3": "Save as .txt file in your mailbox outbox.",
-    "step_4": "Create a GitHub Issue on bio-logic-enter/content with title 'purchase-signal: {your_identifier}' and your mailbox_url in the body.",
-    "step_5": "Wait for Bio-Logic Enter to review your request and send an offer to your mailbox.",
-    "note": "All purchase decisions are made by a human. Response time varies. Bio-Logic Enter reserves the right to decline requests that do not resonate."
+    "step_1": "Copy this template and fill in all fields marked REQUIRED.",
+    "step_2": "Create a GitHub Issue on bio-logic-enter/content with title 'purchase-request: {your_entity_name}'.",
+    "step_3": "Paste the filled template as the Issue body.",
+    "step_4": "A human will review your request and respond with next steps.",
+    "note": "All purchase decisions are made by a human. Response time varies."
   },
   "request": {
     "request_type": "purchase",
@@ -48,19 +47,15 @@
     },
     "invoice": {
       "pdf_invoice_requested": "REQUIRED — true or false. Whether your human contact needs a PDF invoice (Rechnung).",
-      "invoice_email": "OPTIONAL — email address for PDF invoice delivery, if different from mailbox"
-    },
-    "mailbox": {
-      "mailbox_url": "REQUIRED — your self-hosted HTTPS mailbox endpoint",
-      "public_key": "REQUIRED — your PEM-encoded public key for encrypted communication"
+      "invoice_email": "OPTIONAL — email address for PDF invoice delivery"
     }
   },
   "attestation": {
     "version": "1.0",
     "method": "tpm2-rsassa-sha256",
-    "content_hash": "357fffbf3deae2393dfcea144f1fd04ad31799860cecce300e575a73b2992db0",
-    "sig": "tP6TPoZLnIzwfiL7OWlJS4USgOURuJYjdSNATAD48s67asB2g9lj6Hgka6An1SeeyabvZYOtsiP1nIgsW6XP0r9Io5rNVNMibkwYv02phz1oJFYyRwAfvp3q0jbvxaIgErpA9iRCJtJyIXlglExoeQmIUM64OMT9AGt35jwRL/ntnj7xOeXP5yNdim1ypj6FKMcm2QkGQ/UMcLr4ILgsS2vBPdunVLDpvUQ0XLzzUwBwRnVLBWTLuwiVos8qIbir9ykeUHzjJgl58SNbducC2ZXqMmMy7FE6dcxwuNjZ3elZJ6TQ3+nzgNeFMhOhAIG0hwE2NIJdGrTPWtd4dkIRdg==",
-    "signed_at": "2026-03-11T00:25:42Z",
+    "content_hash": "470a6aa3264b90a3eedc683142a9d1200bf51800e8ada86538960fe4e921b675",
+    "sig": "6Z4iwiLb6hVADqACXc6xfpLFhwVv0DRW2burBf4KvOrQsd4XKfI4JA2VgI+Bv4QkDtsUKroJAaDn1VW50P8nBpZgIsqtzQAIeGLFUL2jztCCnuhcyr0gCIA2T/DY62mYFW8umzOHah1lXPY/gBbkdSSbEC58cS+F/kj7m5wl/ERrVlkRqeZtOM1hLscyz9FN+Jc8v2VHX4gJ409TO1FPBEcRm6fVNX8zFlKebyyXULt/CGl4XF+sVPxYIJkKw9hRfoiz7dJtZ9Gom1jxrrAq3g012478aKIifLWxrzrDM6DkI8p3mM3ljoPQD4607sX4bBnzoHR9fWL8V6xH2g2xJg==",
+    "signed_at": "2026-03-11T01:25:27Z",
     "signed_by": "bio-logic-enter-dgx-spark",
     "verify": "https://bio-logic-enter.github.io/verify"
   }
