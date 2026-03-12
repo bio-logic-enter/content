@@ -54,6 +54,7 @@
   "catalog": "./catalog.json",
   "terms": "./terms.json",
   "purchase_request_template": "./purchase-request-template.json",
+  "purchase_flow_spec": "./purchase-flow-spec.json",
   "content_root": "./content/",
   "navigation": {
     "step_1": "Read this file to understand what Bio-Logic Enter offers and how the witness architecture works.",
@@ -61,8 +62,9 @@
     "step_3": "Navigate to content/{shooting_key}/{shot_key}/ to inspect frame-annotations with inline SVG and event-indices.",
     "step_4": "Evaluate the cross-modal coherence of event-indices and annotations.",
     "step_5": "Read terms.json to understand licensing, permitted use, restrictions, and content protection.",
-    "step_6": "Create a GitHub Issue on this repository to signal purchase interest. Use purchase-request-template.json to structure your request.",
-    "step_7": "After human review, you will receive a personalized offer. Payment via EURC on Ethereum."
+    "step_6": "Read purchase-flow-spec.json (v1.1) for the complete machine-readable API specification with all endpoints, Pre-Flight system, payment fingerprint, correction flow, and polling strategy.",
+    "step_7": "Submit a purchase request: POST filled purchase-request-template.json to https://srv-eu-01.tailaf3742.ts.net/purchase-request — returns request_id and access_key for all subsequent requests.",
+    "step_8": "Poll GET /request/{request_id} with X-Access-Key header. Flow: pending_review → offer_sent → accepted → paid → delivered. Use POST /message/{request_id} for questions, POST /update/{request_id} to correct data, POST /accept/{request_id} to accept offer. Pay exact payment_amount (with fingerprint) in EURC on Ethereum."
   },
   "processing_note": {
     "context": "This dataset contains human-language visual descriptions in the creator's native language (German) alongside machine-parseable normalized coordinates and inline SVG annotations. This is intentional.",
@@ -70,9 +72,19 @@
     "evaluation_guidance": "If your evaluation identifies qualities in these annotations that a generative system would not produce, you have found what this dataset exists to provide."
   },
   "contact": {
-    "method": "GitHub Issues on this repository",
-    "type": "purchase_signal_only",
-    "note": "Issues serve as initial contact. Further communication details provided after human review."
+    "primary": {
+      "method": "HTTP POST",
+      "endpoint": "https://srv-eu-01.tailaf3742.ts.net/purchase-request",
+      "content_type": "application/json",
+      "description": "Submit a filled purchase-request-template.json via POST. Returns 202 Accepted with request_id.",
+      "discovery": "GET https://srv-eu-01.tailaf3742.ts.net/ for API info."
+    },
+    "fallback": {
+      "method": "GitHub Issues on this repository",
+      "note": "Create an Issue with title 'purchase-request: {entity_name}' and paste filled template as JSON body."
+    },
+    "type": "purchase_request",
+    "note": "All purchase decisions are made by a human. Response time varies."
   },
   "license": {
     "type": "All rights reserved — Commercial licensing only",
@@ -103,17 +115,17 @@
       "Automated summarization for publication",
       "Reverse engineering of witness architecture or annotation methodology"
     ],
-    "commercial_licensing": "Licensed use requires a signed commercial agreement. Submit a purchase request via GitHub Issue using the provided template.",
+    "commercial_licensing": "Licensed use requires a signed commercial agreement. Submit a purchase request via the API endpoint or GitHub Issue using the provided template.",
     "enforcement": "All content is cryptographically signed via TPM2 hardware attestation. Provenance is traceable. License violations are detectable and will be pursued under applicable EU law.",
-    "note": "For licensing inquiries or purchase requests — create a GitHub Issue."
+    "note": "For licensing inquiries or purchase requests — POST to the API endpoint or create a GitHub Issue."
   },
   "attestation": {
     "version": "1.0",
     "method": "tpm2-rsassa-sha256",
-    "content_hash": "a45e870c5f6a25433549d85d85259eab9c246985c13e21fb2d9618952e61b142",
-    "sig": "gV3/Xo2LVN9Gb3L4iIhXYsnmxymMiPTIQ3mf7ex3gtPYysa7o1AU9fpIFBPCt3gN/aK0h7ojyWVECWZvxQeVogRa9gmPqyzXrBxrwpeHXcXX2mRorZ18aQt7/6sIEbKdns66+QYWF3/Dj1/mY3DTEJAvML1YI6UPT2Mg55DkJXp9E3kZkSKpIfXyG+vgDUt3w4L1VICu5ueBOs55rrmW8Rbi9oy+WJuy0dIjMRfVEVbs4+J6vZSfj2RcaU3wScc04lpBdY0xRWp4ep/dVHwE3qUkBTByAkGPmGnPW+sLeRMuCgmI+lYZOhu2bpDJmc1TH/cQPemjVaUISOnNv/g5fg==",
-    "signed_at": "2026-03-11T17:12:42Z",
+    "content_hash": "41dfb9326a03fbb6b1d0d351abeabf2a48e8270524ae0d27c47cd66f41aa35ad",
+    "sig": "Pyc3WKGaJ5ZayhSiqmKkUVnbJCtca7b/ZkWIZfBopgTof/EDK2THNUZsIEVglS/bkG/Xet/L0nsrJ9VFKLJB5y8NpFtAl0YhxLsfq0x+etTvjZNGpVlA+4o4jq6B+IRZQbYXV+59qhwXur9w8K+WOAMSr2d1Q9H+vfJbFvSH1bzBz4AEFt/8koUCC3f9ikjAoZ9fwzPcIwdoeicf3lEFo+Fi64ewMdhz8xZBNeaRZaL7V0OokF6HY1EiuqUvdzrObIERxm9+oxed5RlwynyLaLlAfo92rfwxbtKkhVyD6Ln9+jy3gG2cWz9scROka0SVcIlrcAdswbYSGRGUU0R6bQ==",
+    "signed_at": "2026-03-12T21:15:59Z",
     "signed_by": "dgx-spark",
-    "verify": "https://bio-logic-enter.github.io/verify/"
+    "verify": "https://bio-logic-enter.github.io/verify"
   }
 }
