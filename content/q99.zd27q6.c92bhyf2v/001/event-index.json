@@ -204,7 +204,7 @@
     "license_summary": "Non-exclusive perpetual machine-training license. Machine-consumption only. Creator zone segments excluded.",
     "full_terms": "See terms.json in content session root directory"
   },
-  "attestation": {
+  "attestation_v1": {
     "version": "1.0",
     "method": "tpm2-rsassa-sha256",
     "content_hash": "3567f3af89c8de9a05e688d06341acb5fd59202d70fb103eabb7dd1205063e21",
@@ -212,5 +212,13 @@
     "signed_at": "2026-03-11T01:23:29Z",
     "signed_by": "bio-logic-enter-dgx-spark",
     "verify": "https://bio-logic-enter.github.io/verify"
+  },
+  "attestation": {
+    "version": "1.0",
+    "method": "tpm2-rsassa-sha256",
+    "content_hash": "8919eb2db81e889ebacb3a90d5d8ed1837c8a55341840cd4bd8df6645a4a8a36",
+    "sig": "GFNZPsG+4kBVcSlk2anIkk6HznDlMc0jBzXVnWLv30UYe50RTgGjL2As6Kvfsni74qE7MN9J5vpJcQqwQ1AVj2jozqXcV5RE4HsvNxfuZ6J0Twh38cAs0tpi3adtrPk1o5/FeY6xXDE/9xfXCKCeA2M7KInsahEynoeukjJW1cm9ih/NhF/JXFzANoF/9XJAqfiMv4FLX9Ty/E8leK4vamR5SbR/uTQWDS7Aitmu187fFHHMFaAozY7kxOUnY2g/uBJUztzFIJMOwjjMiC+SPhsWlhggtxMkxXXJD8WScQLMtES+tnw+Al+xzjhQ7L6+vgug+S2AtXizBcALG8i/yQ==",
+    "signed_at": "2026-03-13T17:56:27Z",
+    "signed_by": "dgx-spark"
   }
 }

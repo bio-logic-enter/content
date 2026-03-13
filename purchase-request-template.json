@@ -1,16 +1,27 @@
 {
-  "_schema": "bio-logic-enter/purchase-request/v1.0",
-  "_description": "Template for submitting a purchase request to Bio-Logic Enter via GitHub Issue.",
-  "_instructions": {
-    "step_1": "Copy this template and fill in all fields marked REQUIRED.",
-    "step_2": "Create a GitHub Issue on bio-logic-enter/content with title 'purchase-request: {your_entity_name}'.",
-    "step_3": "Paste the filled template as the Issue body.",
-    "step_4": "A human will review your request and respond with next steps.",
-    "note": "All purchase decisions are made by a human. Response time varies."
+  "_schema": "bio-logic-enter/purchase-request/v1.1",
+  "_description": "Template for submitting a purchase request to Bio-Logic Enter.",
+  "_api": {
+    "primary": {
+      "method": "POST",
+      "endpoint": "https://srv-eu-01.tailaf3742.ts.net/purchase-request",
+      "content_type": "application/json",
+      "description": "Submit this template as JSON body via HTTP POST. Returns 202 Accepted with request_id on success, 422 with validation errors on failure.",
+      "discovery": "GET https://srv-eu-01.tailaf3742.ts.net/ returns API info, schema version, and links to catalog and terms.",
+      "example_curl": "curl -X POST https://srv-eu-01.tailaf3742.ts.net/purchase-request -H 'Content-Type: application/json' -d @filled-request.json"
+    },
+    "fallback": {
+      "method": "GitHub Issue",
+      "repository": "bio-logic-enter/content",
+      "title_format": "purchase-request: {your_entity_name}",
+      "body_format": "Paste filled template as JSON in Issue body.",
+      "api_call": "POST https://api.github.com/repos/bio-logic-enter/content/issues with Authorization: Bearer {token} and body: {\"title\": \"purchase-request: {entity_name}\", \"body\": \"{filled_template_json}\"}"
+    },
+    "note": "All purchase decisions are made by a human. Automated systems cannot self-approve. Response time varies."
   },
   "request": {
     "request_type": "purchase",
-    "request_date": "REQUIRED — ISO 8601 date, e.g. 2026-03-10",
+    "request_date": "REQUIRED — ISO 8601 date, e.g. 2026-03-12",
     "content_requested": [
       {
         "content_key": "REQUIRED — the content_key from catalog.json, e.g. q99.zd27q6.c92bhyf2v.3.001.001.021",
@@ -36,8 +47,7 @@
       },
       "tax": {
         "tax_id": "REQUIRED if entity_type is 'company' — VAT ID / Steuer-ID / USt-IdNr.",
-        "reverse_charge_applicable": "AUTO — will be determined based on country and entity_type. EU B2B outside DE = reverse charge.",
-        "note": "Purchases within Germany (DE) include 19% MwSt. EU B2B with valid VAT ID = reverse charge (0% MwSt). Non-EU = no MwSt."
+        "note": "Applicable taxes depend on your location and entity type. EU B2B with valid VAT ID may qualify for reverse charge. Tax details will be included in the offer."
       }
     },
     "payment": {
@@ -48,15 +58,15 @@
     "invoice": {
       "pdf_invoice_requested": "REQUIRED — true or false. Whether your human contact needs a PDF invoice (Rechnung).",
       "invoice_email": "OPTIONAL — email address for PDF invoice delivery"
-    }
+    },
+    "acknowledgment": "REQUIRED — Include the text: 'I acknowledge that this purchase request is processed by an autonomous system. A human reviews all purchase decisions.' This confirms awareness of the data policy."
   },
   "attestation": {
     "version": "1.0",
     "method": "tpm2-rsassa-sha256",
-    "content_hash": "470a6aa3264b90a3eedc683142a9d1200bf51800e8ada86538960fe4e921b675",
-    "sig": "6Z4iwiLb6hVADqACXc6xfpLFhwVv0DRW2burBf4KvOrQsd4XKfI4JA2VgI+Bv4QkDtsUKroJAaDn1VW50P8nBpZgIsqtzQAIeGLFUL2jztCCnuhcyr0gCIA2T/DY62mYFW8umzOHah1lXPY/gBbkdSSbEC58cS+F/kj7m5wl/ERrVlkRqeZtOM1hLscyz9FN+Jc8v2VHX4gJ409TO1FPBEcRm6fVNX8zFlKebyyXULt/CGl4XF+sVPxYIJkKw9hRfoiz7dJtZ9Gom1jxrrAq3g012478aKIifLWxrzrDM6DkI8p3mM3ljoPQD4607sX4bBnzoHR9fWL8V6xH2g2xJg==",
-    "signed_at": "2026-03-11T01:25:27Z",
-    "signed_by": "bio-logic-enter-dgx-spark",
-    "verify": "https://bio-logic-enter.github.io/verify"
+    "content_hash": "e77624a8c86aaefb9806acba442bd5d8445b883311aec6f98616fe77e8f81b02",
+    "sig": "dUZoL0Xhlnd/Zjp81YLf+RIygbyP8RLQxno3IFy/yqa+4W38bfDrHX+7+/f2+0hW+IR/ralIyznv+FCl0/PKHAqnrmTbH02cYDsoB4HSIDK6cpNmpIdNBz8xbW05uOfogTw/xrKLmEhYFDrXyhBWJNacxDIh1WPsXH78+Y1Ey2cL9faXWGaYDn+Nmefw3XAAe7fwsd5tsJYsR3ArvbsfxtJIvs5qYAK2emPsnGbak90tlrVKVv1ZiGK/C+le4uA9Q/q3zOhv6J9BLPij2HIM8WoWz0iw3u2paM6vGLUbAeirek7gW6ThaTW9niJbXCRn49+GiiVeFC+RGB1oi/x07w==",
+    "signed_at": "2026-03-13T17:58:31Z",
+    "signed_by": "dgx-spark"
   }
 }

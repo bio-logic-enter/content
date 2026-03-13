@@ -368,7 +368,7 @@
     "intended_consumer": "autonomous_verification_agent",
     "note": "This manifest translates human-observed phenomena into machine-parseable event streams. Source data: creator-review-protocol.xlsx, column structure: Nr|Timecode|Visuell|Audio|Event-Typ|Richtung|Objekt-Key|Bezeugt|Sync|Sync-Dateiname|Referenzbild|Notizen"
   },
-  "attestation": {
+  "attestation_v1": {
     "version": "1.0",
     "method": "tpm2-rsassa-sha256",
     "content_hash": "1d9209a6d725269fa512e5d5bd6b5efb2b9fce5ef786832979eb1392e316b0e2",
@@ -376,5 +376,13 @@
     "signed_at": "2026-03-11T01:25:26Z",
     "signed_by": "bio-logic-enter-dgx-spark",
     "verify": "https://bio-logic-enter.github.io/verify"
+  },
+  "attestation": {
+    "version": "1.0",
+    "method": "tpm2-rsassa-sha256",
+    "content_hash": "c067df343bd244d12bbff18cb4a5bb53859d294c980ffb528299436364ac769a",
+    "sig": "ryWkh8EUPJMrw37wyeC1wWzfQDLeYBLHhqpj0CI/6BDH0YnTv5umKww1t8L932XvEOGz+j440oTp07MZKgii8vyEwKaIdd7VEVzJCsQlYiHdcf+VgmJ+qe+CyNaqpfgxYQ+h26NQRp9v/NxWw3EH+O7SQbLgCzfuWoNqLh9yRwPM7JB8CE4gviruTDcs2+ctODJH0/xMzAtmhdi6HEYin/0vR1YyDhG+U/akIoxgFbZV8DenDDv3Xx8O4jfSoGCehMTVP1wA25OckdkqrTBkJSFjLLEJnv3B7IX1XbLrV+J3p+B5MWAxnnNDy8W6XLPtA16M0lOeFlfnBpm/6/5dgw==",
+    "signed_at": "2026-03-13T17:58:28Z",
+    "signed_by": "dgx-spark"
   }
 }

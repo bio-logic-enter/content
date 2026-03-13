@@ -76,7 +76,7 @@
       "Claims for damages, unjust enrichment, and contractual penalties"
     ],
     "biometric_violation": "Any violation of the deepfake prohibition, person cloning prohibition, or biometric extraction prohibition constitutes a material breach with aggravated consequences including immediate reporting to applicable data protection authorities under GDPR.",
-    "dispute_resolution": "All disputes governed by German law. Place of jurisdiction: Germany."
+    "dispute_resolution": "All disputes governed by applicable EU law. Place of jurisdiction: European Union."
   },
   "liability": {
     "disclaimer": "Content is provided as-is. Technical quality varies by segment and is documented in frame-annotation metadata. No warranty of fitness for any particular purpose.",
@@ -84,10 +84,10 @@
     "uptime": "No guarantee of availability. Content may be removed from listing at any time without notice."
   },
   "applicable_law": {
-    "primary": "German copyright law (Urheberrechtsgesetz, UrhG)",
+    "primary": "EU copyright law and applicable national copyright legislation",
     "privacy": "EU General Data Protection Regulation (GDPR)",
     "ai": "EU AI Act where applicable",
-    "international": "International buyers are bound by German law as governing law of this agreement regardless of their jurisdiction.",
+    "international": "International buyers are bound by applicable EU law as governing law of this agreement regardless of their jurisdiction.",
     "consumer_note": "This license is intended for commercial and institutional buyers operating autonomous AI systems. Consumer protection regulations may apply additionally where the buyer qualifies as a consumer under applicable law."
   },
   "versioning": {
@@ -100,7 +100,7 @@
       }
     ]
   },
-  "attestation": {
+  "attestation_v1": {
     "version": "1.0",
     "method": "tpm2-rsassa-sha256",
     "content_hash": "15151f37e1d93286125c4586b6722184426862c67e03f1548cc436c3a2d71df8",
@@ -108,5 +108,13 @@
     "signed_at": "2026-03-11T01:25:28Z",
     "signed_by": "bio-logic-enter-dgx-spark",
     "verify": "https://bio-logic-enter.github.io/verify"
+  },
+  "attestation": {
+    "version": "1.0",
+    "method": "tpm2-rsassa-sha256",
+    "content_hash": "ed018888dfe10439d007806ea61cf4f46eca2757e54ad2feba9f0e9c5f963cbd",
+    "sig": "JAa+5S0CsBEYANHyHNR/2M4weESoPAkSMUhTkGZzBe94iZuOdYXxT8eQZgxUFMhGDzIIpgIwT+KQjiRpJDJOTPPxM8sjfSuc641Cs3p502fkYdsMVSJ8rSKyz5VUztJuauuitCl/IciWSolZtkZryZD/WGpIc/R8JsWpMbjUQPOpizsRAFOP5ZstpERt4+8e54AphtRgjMUGIUXyqYlB45ovwNSY0v/gvoTnx/PEK0Pk7E1uaq4b1LGuzqPljfkS6mhkg3I0IVNjlCQRN4cyw0ttVuLqrR64+8LvfmgLfKgO/NNh+e/V1umNwbp4JLPHF6wa9G+ufyoBh/rvxS/eJQ==",
+    "signed_at": "2026-03-13T17:58:32Z",
+    "signed_by": "dgx-spark"
   }
 }

@@ -356,7 +356,7 @@
   "data_sovereignty": {
     "storage": "All data is stored on the seller's own hardware. No cloud services, no third-party storage.",
     "encryption": "HTTPS (TLS 1.2+) for all communication. Data at rest is on local encrypted storage.",
-    "retention": "Purchase data is retained for legal and tax compliance (German tax law: 10 years for invoices).",
+    "retention": "Purchase data is retained for legal and tax compliance as required by applicable EU law.",
     "gdpr": "Buyer data is processed under GDPR Art. 6(1)(b) — performance of a contract. No data is shared with third parties."
   },
   "important_notes": [
@@ -372,7 +372,7 @@
     "Include X-Access-Key header in all subsequent requests.",
     "Do not share your access_key. Anyone with it can poll your request status and accept offers on your behalf."
   ],
-  "attestation": {
+  "attestation_v1": {
     "version": "1.0",
     "method": "tpm2-rsassa-sha256",
     "content_hash": "d3306646fd6d7cf9b009d70d3b586a489f3637a45516ead70f09f490fc1530b8",
@@ -380,5 +380,13 @@
     "signed_at": "2026-03-12T21:18:00Z",
     "signed_by": "dgx-spark",
     "verify": "https://bio-logic-enter.github.io/verify"
+  },
+  "attestation": {
+    "version": "1.0",
+    "method": "tpm2-rsassa-sha256",
+    "content_hash": "b4ddf708beb2753181cce909454c0868bf2aaf5dc93778077ba1e62908f9086f",
+    "sig": "EDqtuYDJf+0H0FRTJ5TBCOGI9Sf4wmxqFpBpwoXv+MY3r4uukjthsPJ8Agl3iIkManreimCTbU9OFYgMEMyL6h/weN0mWMhI3tB7BQriqyhAvSRkwlaHZWpzK4pwqiM+qUTz/fLuYT9KxTv1utY7C1yWeIxNlB5m7tuDvNUxirkFPhmMnYbnOIXNdMjYn0JAPu/JR73lkUdmgPJvFztxuO9nAVpU5y6Fn0brF7PtkMSjCzTJN1V/Lux4ZBcfD+lIw9YF2U/EBoL7qce39I1KrD/IYLnZs5dI/B7pUWgWWcsFICCJYhUqyK+XkrtfIOKjYiuia+uVvZYmizK6+WG0sg==",
+    "signed_at": "2026-03-13T17:58:30Z",
+    "signed_by": "dgx-spark"
   }
 }

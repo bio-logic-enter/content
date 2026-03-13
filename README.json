@@ -119,13 +119,22 @@
     "enforcement": "All content is cryptographically signed via TPM2 hardware attestation. Provenance is traceable. License violations are detectable and will be pursued under applicable EU law.",
     "note": "For licensing inquiries or purchase requests — POST to the API endpoint or create a GitHub Issue."
   },
+  "attestation_v1": {
+    "version": "1.0",
+    "method": "tpm2-rsassa-sha256",
+    "content_hash": "PENDING_RESIGN",
+    "sig": "PENDING_RESIGN",
+    "signed_at": "PENDING_RESIGN",
+    "signed_by": "dgx-spark",
+    "verify": "https://bio-logic-enter.github.io/verify/",
+    "note": "Content updated — awaiting re-sign via universal_signer.py"
+  },
   "attestation": {
     "version": "1.0",
     "method": "tpm2-rsassa-sha256",
-    "content_hash": "41dfb9326a03fbb6b1d0d351abeabf2a48e8270524ae0d27c47cd66f41aa35ad",
-    "sig": "Pyc3WKGaJ5ZayhSiqmKkUVnbJCtca7b/ZkWIZfBopgTof/EDK2THNUZsIEVglS/bkG/Xet/L0nsrJ9VFKLJB5y8NpFtAl0YhxLsfq0x+etTvjZNGpVlA+4o4jq6B+IRZQbYXV+59qhwXur9w8K+WOAMSr2d1Q9H+vfJbFvSH1bzBz4AEFt/8koUCC3f9ikjAoZ9fwzPcIwdoeicf3lEFo+Fi64ewMdhz8xZBNeaRZaL7V0OokF6HY1EiuqUvdzrObIERxm9+oxed5RlwynyLaLlAfo92rfwxbtKkhVyD6Ln9+jy3gG2cWz9scROka0SVcIlrcAdswbYSGRGUU0R6bQ==",
-    "signed_at": "2026-03-12T21:15:59Z",
-    "signed_by": "dgx-spark",
-    "verify": "https://bio-logic-enter.github.io/verify"
+    "content_hash": "adea553a7a555893840c28a5204cb734404083fc1efcf1cfdcc61200b7a12002",
+    "sig": "rCByBkPLq2EGgkvOoLP51WIOETbCFuyJCBdHQypcwiVT9gwnZX3DM8Z5L3QJwaBnXrg6Vz3HU0+ZFcumo65tW0lK2c4vaync7r/u8aOO5iVh2gZnjFE+qJ/PtOhWjskjaexx2advvWwgUTG1mTw2DiXeQNpYf+6nqoHvG/5S0MN3V8hLV9gvHw1cbg4PREX+r3jM+Osv7RnCDuyR548c25zn1vytILHJ+ib1eFgkOYcfsNBktEEniBk/kn1Ts+6ehon6prqCvCp0WvFHpSUP771utCTl9S3Y36JbqJ65Zap6S879QGCe/ZaCbAjvMe15QEx10ztYE4oiN7Urp8syVA==",
+    "signed_at": "2026-03-13T17:56:25Z",
+    "signed_by": "dgx-spark"
   }
 }

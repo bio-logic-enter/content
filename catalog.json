@@ -154,7 +154,7 @@
     "filter_by_infrastructure": "shots[].infrastructure == true",
     "get_all_content_keys": "shots[].content_key"
   },
-  "attestation": {
+  "attestation_v1": {
     "version": "1.0",
     "method": "tpm2-rsassa-sha256",
     "content_hash": "4b876cfec1c8f4a30316c5dd95e537491c9dddb4cbf30f59316db44a87363525",
@@ -162,5 +162,13 @@
     "signed_at": "2026-03-11T01:23:28Z",
     "signed_by": "bio-logic-enter-dgx-spark",
     "verify": "https://bio-logic-enter.github.io/verify"
+  },
+  "attestation": {
+    "version": "1.0",
+    "method": "tpm2-rsassa-sha256",
+    "content_hash": "edb7f2e3a4cbc1227a1b3a766c314838c57471791f9c45ee118064f6ccb1c430",
+    "sig": "aeHaMIhyX6MaSWad36OvED1pZwIkUj09kpetnTf1NScugXWPq1LBWkqJD+wBucksVfujYpsg5Umbu1D2pNm1laj4gjDGQ8u4wzqZQlJo4J754dM/vxVqBjnRacZJq38y5wPI7bXWQVUaE3WaNMd3xAorojklBp5I9Tr89b9i/i13YtUZPtzHp5FASph3J7hkdpEFcmuJZ15yK54INgR4otRZrD2e/vgLbW4f3qxW1FRde5kxzF/LlwARMAjqie2W8cA64+aNnw057fyznyeeyrS0f2jXU4S/1arFDdtK7SyH8J/iNv+dQK6tcJ6I0i3ISX2bu848IRoJOlykPESWuQ==",
+    "signed_at": "2026-03-13T17:56:25Z",
+    "signed_by": "dgx-spark"
   }
 }
