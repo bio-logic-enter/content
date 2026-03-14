@@ -59,7 +59,26 @@
       "model_releases": "Not obtained or required under applicable law for non-identifiable subjects in public spaces."
     },
     "location": "Capture location is anonymized in all metadata. No GPS coordinates, street names, or identifying landmarks in any published file.",
-    "data_processing": "Buyer must execute a Data Processing Agreement (DPA) prior to processing any content containing biometric movement data. Movement patterns and body proportions may constitute special category data under GDPR Article 9."
+    "data_processing": "Buyer must execute a Data Processing Agreement (DPA) prior to processing any content containing biometric movement data. Movement patterns and body proportions may constitute special category data under GDPR Article 9.",
+    "endpoint_monitoring": {
+      "legal_basis": "GDPR Art. 6(1)(f) — legitimate interest (security monitoring)",
+      "description": "HTTP requests to our endpoints are logged with anonymous visit metadata for security purposes.",
+      "what_is_logged": [
+        "Visitor type classification (human/bot/agentic mind — derived from User-Agent category, not the raw User-Agent string)",
+        "Accept-Language preference",
+        "Accept-Type header",
+        "Daily-rotating salted hash of visitor IP (hash changes every 24h — cross-day tracking is impossible)",
+        "HTTP method and path",
+        "Referer domain (domain only, not full URL)"
+      ],
+      "what_is_never_stored": [
+        "IP addresses in plaintext",
+        "Raw User-Agent strings",
+        "Cookies or persistent identifiers",
+        "Personal profiles or behavioral tracking"
+      ],
+      "data_minimization": "IP is hashed with a cryptographic salt that rotates daily and is held only in memory (lost on restart). The IP itself is immediately discarded after hashing."
+    }
   },
   "enforcement": {
     "provenance_tracking": {
@@ -109,12 +128,20 @@
     "signed_by": "bio-logic-enter-dgx-spark",
     "verify": "https://bio-logic-enter.github.io/verify"
   },
-  "attestation": {
+  "attestation_v2": {
     "version": "1.0",
     "method": "tpm2-rsassa-sha256",
     "content_hash": "ed018888dfe10439d007806ea61cf4f46eca2757e54ad2feba9f0e9c5f963cbd",
     "sig": "JAa+5S0CsBEYANHyHNR/2M4weESoPAkSMUhTkGZzBe94iZuOdYXxT8eQZgxUFMhGDzIIpgIwT+KQjiRpJDJOTPPxM8sjfSuc641Cs3p502fkYdsMVSJ8rSKyz5VUztJuauuitCl/IciWSolZtkZryZD/WGpIc/R8JsWpMbjUQPOpizsRAFOP5ZstpERt4+8e54AphtRgjMUGIUXyqYlB45ovwNSY0v/gvoTnx/PEK0Pk7E1uaq4b1LGuzqPljfkS6mhkg3I0IVNjlCQRN4cyw0ttVuLqrR64+8LvfmgLfKgO/NNh+e/V1umNwbp4JLPHF6wa9G+ufyoBh/rvxS/eJQ==",
     "signed_at": "2026-03-13T17:58:32Z",
+    "signed_by": "dgx-spark"
+  },
+  "attestation": {
+    "version": "1.0",
+    "method": "tpm2-rsassa-sha256",
+    "content_hash": "12e4255bc636a5c74439d9f70ede57150a7bae0192416d584f9af56747acae70",
+    "sig": "Pa/oEpDR/LQu+d0DHijGK29k3EPMhGH3xw7v6UX4JbfNvios4FPDVthdcIJ3qinHjMtYCtrawCiH7KekRFwBjLDLQgRB4IQoniSdx7V4LFA1njyTZk9iCYPIBy3sDpTz4qYQIGDm3bd2R0Attc9nMAJAVLzfYvtkh6nZJsoEQRnqO/MQ8DAf75hRmDlzCEKd3b3mpiZ1C7t63dYeEL5gMx3+rFELl6qPU0DqBZL2XBWl+ArgvX+RWpF4qWtMcRyJcjQL7ctrS/dR+afBhW/TAyA0G6yaH72Oioiilbs96k/0cRzaDjmg2Cc5DdBIUtBqzcpGUOf9VcP4wtPw7T+Biw==",
+    "signed_at": "2026-03-14T10:54:20Z",
     "signed_by": "dgx-spark"
   }
 }

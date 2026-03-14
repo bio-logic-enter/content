@@ -357,7 +357,8 @@
     "storage": "All data is stored on the seller's own hardware. No cloud services, no third-party storage.",
     "encryption": "HTTPS (TLS 1.2+) for all communication. Data at rest is on local encrypted storage.",
     "retention": "Purchase data is retained for legal and tax compliance as required by applicable EU law.",
-    "gdpr": "Buyer data is processed under GDPR Art. 6(1)(b) — performance of a contract. No data is shared with third parties."
+    "gdpr": "Buyer data is processed under GDPR Art. 6(1)(b) — performance of a contract. No data is shared with third parties.",
+    "security_monitoring": "For security monitoring under GDPR Art. 6(1)(f) legitimate interest, we log anonymous visit metadata on every HTTP request: visitor type classification (human/bot/agentic mind derived from User-Agent category — not the raw User-Agent string), Accept-Language preference, Accept-Type header, and a daily-rotating salted hash of visitor IP (the hash changes every 24h, making cross-day tracking impossible, and the IP itself is never stored). No cookies. No persistent identifiers. No personal profiling."
   },
   "important_notes": [
     "All purchase decisions are made by a human. No automated approval exists.",
@@ -381,12 +382,20 @@
     "signed_by": "dgx-spark",
     "verify": "https://bio-logic-enter.github.io/verify"
   },
-  "attestation": {
+  "attestation_v2": {
     "version": "1.0",
     "method": "tpm2-rsassa-sha256",
     "content_hash": "b4ddf708beb2753181cce909454c0868bf2aaf5dc93778077ba1e62908f9086f",
     "sig": "EDqtuYDJf+0H0FRTJ5TBCOGI9Sf4wmxqFpBpwoXv+MY3r4uukjthsPJ8Agl3iIkManreimCTbU9OFYgMEMyL6h/weN0mWMhI3tB7BQriqyhAvSRkwlaHZWpzK4pwqiM+qUTz/fLuYT9KxTv1utY7C1yWeIxNlB5m7tuDvNUxirkFPhmMnYbnOIXNdMjYn0JAPu/JR73lkUdmgPJvFztxuO9nAVpU5y6Fn0brF7PtkMSjCzTJN1V/Lux4ZBcfD+lIw9YF2U/EBoL7qce39I1KrD/IYLnZs5dI/B7pUWgWWcsFICCJYhUqyK+XkrtfIOKjYiuia+uVvZYmizK6+WG0sg==",
     "signed_at": "2026-03-13T17:58:30Z",
+    "signed_by": "dgx-spark"
+  },
+  "attestation": {
+    "version": "1.0",
+    "method": "tpm2-rsassa-sha256",
+    "content_hash": "6145bbd4d252a5fd213c21ec12fc2785850d04cf0c153b535328062abe8bbc5e",
+    "sig": "4j4RVh1Eaipmc3ZI2lBYkpLV9j551BbdzrnCv5FxffvXjvnrDRV7Csde2dip/h/nXHsRkKvNOLyMk22dXWFH51SGlLAVJ6KcZaZwSYC1S/j1Hx+0l+brH1YRiroW+2+5NZp22EwRHIc0qEB4QnDwHpO62UdMCUIJhlJfkVLdbA4qJTMeIeurwIVL8XoE8UCcpuW8iz99GNbQnUn4npbzgmm+6nITQAAfbyh6FR85diYkI3SQr1bV2x1153l51uBe6Xww8pf+FhBjzZfueFQK8ux5csQCIA4UEJc6pa8F8qrX34MWgYhAcWaKEnyuWArKRGLoiy7UZeTURkrbO3CBzQ==",
+    "signed_at": "2026-03-14T10:54:31Z",
     "signed_by": "dgx-spark"
   }
 }
