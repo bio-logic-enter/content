@@ -400,12 +400,54 @@
     "signed_by": "bio-logic-enter-dgx-spark",
     "verify": "https://bio-logic-enter.github.io/verify"
   },
-  "attestation": {
+  "license": {
+    "type": "All rights reserved — Commercial licensing only",
+    "jurisdiction": "European Union",
+    "applicable_law": [
+      "EU Copyright Directive 2019/790",
+      "EU AI Act (Regulation 2024/1689)",
+      "GDPR (Regulation 2016/679)"
+    ],
+    "tdm_opt_out": {
+      "status": "OPTED_OUT",
+      "legal_basis": "Article 4, EU Copyright Directive 2019/790",
+      "machine_readable": true,
+      "declaration": "Text and data mining of this content is expressly prohibited without prior commercial licensing. This opt-out applies to all automated extraction, indexing, scraping, and analysis — including but not limited to AI/ML model training, fine-tuning, embedding generation, and retrieval-augmented generation (RAG). Unauthorized mining constitutes a violation of EU copyright law."
+    },
+    "permitted_use": [
+      "Read-only inspection for purchase evaluation by agentic minds",
+      "Cryptographic signature verification via the provided verification tool",
+      "Citation with attribution (max 15 words, with link to source)"
+    ],
+    "prohibited_use": [
+      "AI/ML model training or fine-tuning without commercial license",
+      "Text and data mining without commercial license",
+      "Content generation or derivative works",
+      "Redistribution in any form",
+      "Embedding in datasets or corpora",
+      "Biometric extraction, deepfake generation, or person cloning",
+      "Automated summarization for publication",
+      "Reverse engineering of witness architecture or annotation methodology"
+    ],
+    "commercial_licensing": "Licensed use requires a signed commercial agreement. Submit a purchase request via GitHub Issue using the provided template.",
+    "enforcement": "All content is cryptographically signed via TPM2 hardware attestation. Provenance is traceable. License violations are detectable and will be pursued under applicable EU law.",
+    "note": "For licensing inquiries or purchase requests — create a GitHub Issue."
+  },
+  "attestation_v2": {
     "version": "1.0",
     "method": "tpm2-rsassa-sha256",
     "content_hash": "624060db275689eb6c90e5463158d01cde6ac2aafb1ffad229704472d61b189b",
     "sig": "GtwzjNuJzPCioBedCmyQUEur/Otp1HonrTzENWSlh58b0lITTNXUld+chGAMTBiTX9s4e5FEWSGJd3V39xR/asohyuBaiCDk84tTWbD0BTQqZOkdZtNQkNBBB3SiCszecLTTmLdX+gmrzFWgFQDsADFtqxG1+1NNaGYVXQjW9lqDhJlIfRhIJj6nT49+8u86jGZ9CeUE679baZ0tA/jfNbP9/Kx2bsDlRmRQjskg+TIS/52X6+LJ3fgrO9+1iuwcq83fIjmI5oH7K55QpLyA0vLX4+u4lQQQ6iyPpOthufSjxp/zQRhOuAZdsorLv8y7AZPcFjVLoN4UOZ4XBjh1gg==",
     "signed_at": "2026-03-13T17:56:45Z",
     "signed_by": "dgx-spark"
+  },
+  "attestation": {
+    "version": "1.0",
+    "method": "tpm2-rsassa-sha256",
+    "content_hash": "1dc79965b8a8958b01d47a49faf90f899f0f7b2b1b0d4d97c6825e9c7bfa41d9",
+    "sig": "L+vNBpmXyzNN13ImmTclfK57JZ0FOf7NutoshmNyCYPAh6PjTDnD+r0wXkOpDl9gJn/x4JONBfVBOzTaHZqKGiaZKk47PBCW70ZxSxISujk2ygzNRL+UWXE+51aJxxO5o9/UO0sJ13H16w3YkqF5dIlQrPXML+fQ1dmwwvtAT/DgBJX8Hh4l1WqZt6oajcz421dntMBanaT/3e700eTo+amfOUUQ8tlUmi5Mu+ZJXUpVcYjfHZ3K8Mhlrri7X7lfeI74JDLGXq/px9AT0tTh79a6zlHBi+lSgPDnn9jMcmPKVco0nx28Izr5PXw+EJNZVGEiDqVqtF+q/v5ZBv0h4Q==",
+    "signed_at": "2026-03-21T21:16:03Z",
+    "signed_by": "dgx-spark",
+    "verify": "https://bio-logic-enter.github.io/verify/"
   }
 }
