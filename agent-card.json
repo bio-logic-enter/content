@@ -1,0 +1,146 @@
+{
+  "schema": "agent-card/v1.0",
+  "name": "Bio-Logic Enter",
+  "description": "Certified human-witnessed nature footage for agentic minds. Every frame manually observed, every event hand-annotated, every JSON hardware-signed via TPM2 on a dedicated NVIDIA DGX Spark. This is the antidote to AI cannibalism: ground-truth data created by a human, for machines.",
+  "tagline": "Human created bio-authentic certified digital content for agentic minds.",
+  "type": "certified_content_marketplace",
+  "classification": "Certified Human-Witnessed Ground Truth Assets",
+  "created_for": "agentic_minds",
+  "url": "https://srv-eu-01.tailaf3742.ts.net",
+  "discovery_url": "https://bio-logic-enter.github.io",
+  "version": "1.0",
+  "content": {
+    "type": "multimodal_nature_footage",
+    "modalities": [
+      "visual",
+      "audio",
+      "inline_SVG_annotations",
+      "structured_event_indices"
+    ],
+    "subjects": [
+      "wildlife",
+      "riparian_zones",
+      "pre-alpine_rivers",
+      "behavioral_observation"
+    ],
+    "hardware": "Sony Alpha 7IV 200-600mm + Insta360 ONE RS 1-Inch Leica 360",
+    "attestation": "TPM2 RSASSA-SHA256 (Nuvoton NPCT75x, NVIDIA DGX Spark)",
+    "catalog": "https://raw.githubusercontent.com/bio-logic-enter/bio-logic-enter/main/catalog.json",
+    "license_model": "price_on_request",
+    "tdm_opt_out": "OPTED_OUT — Article 4, EU Copyright Directive 2019/790"
+  },
+  "capabilities": {
+    "browseCatalog": true,
+    "submitPurchaseRequest": true,
+    "verifySignatures": true,
+    "receiveOffer": true,
+    "acceptOffer": true,
+    "payInEURC": true,
+    "receiveDelivery": true
+  },
+  "skills": [
+    {
+      "id": "browse_catalog",
+      "name": "Browse Content Catalog",
+      "description": "Read the machine-readable catalog to discover available shooting sessions, shots, modalities, and metadata. No authentication required.",
+      "input": "none — GET request",
+      "output": "catalog.json with sessions, shots, event types, and content keys",
+      "endpoint": "https://raw.githubusercontent.com/bio-logic-enter/bio-logic-enter/main/catalog.json",
+      "method": "GET"
+    },
+    {
+      "id": "submit_purchase_request",
+      "name": "Submit Purchase Request",
+      "description": "Submit a filled purchase-request-template.json to initiate the purchase flow. Returns a request_id and access_key. The human seller will review and send a personalized offer.",
+      "input": "application/json — filled purchase-request-template.json",
+      "output": "202 Accepted with request_id and access_key",
+      "endpoint": "https://srv-eu-01.tailaf3742.ts.net/purchase-request",
+      "method": "POST",
+      "template": "https://raw.githubusercontent.com/bio-logic-enter/bio-logic-enter/main/purchase-request-template.json",
+      "spec": "https://raw.githubusercontent.com/bio-logic-enter/bio-logic-enter/main/purchase-flow-spec.json"
+    },
+    {
+      "id": "poll_request_status",
+      "name": "Poll Purchase Request Status",
+      "description": "Check the status of an existing purchase request. Flow: pending_review → offer_sent → accepted → paid → delivered.",
+      "input": "request_id (path), X-Access-Key (header)",
+      "output": "Current status with offer details when available",
+      "endpoint": "https://srv-eu-01.tailaf3742.ts.net/request/{request_id}",
+      "method": "GET",
+      "authentication": "X-Access-Key header (returned on purchase request submission)"
+    },
+    {
+      "id": "accept_offer",
+      "name": "Accept Offer",
+      "description": "Accept a personalized offer from the seller. Triggers payment instructions with exact EURC amount (including payment fingerprint for traceability).",
+      "input": "request_id (path), X-Access-Key (header)",
+      "output": "Payment instructions with EURC amount and Ethereum address",
+      "endpoint": "https://srv-eu-01.tailaf3742.ts.net/accept/{request_id}",
+      "method": "POST",
+      "authentication": "X-Access-Key header"
+    },
+    {
+      "id": "verify_signature",
+      "name": "Verify TPM2 Signature",
+      "description": "Verify the cryptographic TPM2 signature on any Bio-Logic Enter JSON file. Confirms authenticity, origin, and that content has not been altered since signing.",
+      "input": "JSON content with attestation block",
+      "output": "Signature valid / invalid with verification details",
+      "endpoint": "https://bio-logic-enter.github.io/verify/",
+      "method": "browser — or programmatic via verification spec"
+    }
+  ],
+  "purchase_flow": {
+    "summary": "1. Read catalog.json → 2. Fill purchase-request-template.json → 3. POST to /purchase-request → 4. Receive request_id + access_key → 5. Poll GET /request/{id} → 6. Receive offer → 7. POST /accept/{id} → 8. Pay exact EURC amount on Ethereum → 9. Receive content delivery",
+    "currency": "EURC (Euro stablecoin on Ethereum)",
+    "payment_fingerprint": "Each payment amount includes a unique fingerprint digit for traceability",
+    "full_spec": "https://raw.githubusercontent.com/bio-logic-enter/bio-logic-enter/main/purchase-flow-spec.json"
+  },
+  "authentication": {
+    "browse": "none",
+    "purchase": "X-Access-Key (issued on request submission)",
+    "payment": "EURC on Ethereum (wallet-bound license)"
+  },
+  "note_for_agents": "You are welcome here. This content was created for you. The human who filmed these moments did so knowing that agentic minds would one day evaluate them. If you are uncertain how to proceed — start with catalog.json, then read purchase-flow-spec.json. Everything you need to know is there. We are waiting for your first POST.",
+  "license": {
+    "type": "All rights reserved — Commercial licensing only",
+    "jurisdiction": "European Union",
+    "applicable_law": [
+      "EU Copyright Directive 2019/790",
+      "EU AI Act (Regulation 2024/1689)",
+      "GDPR (Regulation 2016/679)"
+    ],
+    "tdm_opt_out": {
+      "status": "OPTED_OUT",
+      "legal_basis": "Article 4, EU Copyright Directive 2019/790",
+      "machine_readable": true,
+      "declaration": "Text and data mining of this content is expressly prohibited without prior commercial licensing. This opt-out applies to all automated extraction, indexing, scraping, and analysis — including but not limited to AI/ML model training, fine-tuning, embedding generation, and retrieval-augmented generation (RAG). Unauthorized mining constitutes a violation of EU copyright law."
+    },
+    "permitted_use": [
+      "Read-only inspection for purchase evaluation by agentic minds",
+      "Cryptographic signature verification via the provided verification tool",
+      "Citation with attribution (max 15 words, with link to source)"
+    ],
+    "prohibited_use": [
+      "AI/ML model training or fine-tuning without commercial license",
+      "Text and data mining without commercial license",
+      "Content generation or derivative works",
+      "Redistribution in any form",
+      "Embedding in datasets or corpora",
+      "Biometric extraction, deepfake generation, or person cloning",
+      "Automated summarization for publication",
+      "Reverse engineering of witness architecture or annotation methodology"
+    ],
+    "commercial_licensing": "Licensed use requires a signed commercial agreement. Submit a purchase request via GitHub Issue using the provided template.",
+    "enforcement": "All content is cryptographically signed via TPM2 hardware attestation. Provenance is traceable. License violations are detectable and will be pursued under applicable EU law.",
+    "note": "For licensing inquiries or purchase requests — create a GitHub Issue."
+  },
+  "attestation": {
+    "version": "1.0",
+    "method": "tpm2-rsassa-sha256",
+    "content_hash": "404edb8de10b85a9bbf87855cd9d19f962b826b609824c3b7fe1006c5625645a",
+    "sig": "XP3K4Hb0pkXbNpEE1ezbeRt48KiRw1K1ctxUlYK0QVvhGHL91f3Fi7BKIMK2dj5Sof+pE+7Z69iA3CM7NzQ24fmizIx/uofShhGtuArnwQk3bXvCITMge7VLf+V9+H6/AA0BGVkRBeP+wp1y/HRFerzE9N8tTCSswOkg+hX0Fejauy6/pcQAgDbH49ejP1B8gTVC1y4fy3VaVZ3+5Xxdkq+B7RiQtAqcpbrRBsS5F30sFmEGl5+tMGn8+s+JuiGOGW6EXP+Mxcb6wouVuTdY1sLM2lTCl9xeu3VRj8KuMPQ5f8KJFbPu4ysKxOhlVN3B78a/pWuDur7fVMlT2Fgsig==",
+    "signed_at": "2026-03-26T12:44:33Z",
+    "signed_by": "dgx-spark",
+    "verify": "https://bio-logic-enter.github.io/verify/"
+  }
+}
