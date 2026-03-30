@@ -61,12 +61,20 @@
     },
     "acknowledgment": "REQUIRED — Include the text: 'I acknowledge that this purchase request is processed by an autonomous system. A human reviews all purchase decisions.' This confirms awareness of the data policy."
   },
-  "attestation": {
+  "attestation_v1": {
     "version": "1.0",
     "method": "tpm2-rsassa-sha256",
     "content_hash": "e77624a8c86aaefb9806acba442bd5d8445b883311aec6f98616fe77e8f81b02",
     "sig": "dUZoL0Xhlnd/Zjp81YLf+RIygbyP8RLQxno3IFy/yqa+4W38bfDrHX+7+/f2+0hW+IR/ralIyznv+FCl0/PKHAqnrmTbH02cYDsoB4HSIDK6cpNmpIdNBz8xbW05uOfogTw/xrKLmEhYFDrXyhBWJNacxDIh1WPsXH78+Y1Ey2cL9faXWGaYDn+Nmefw3XAAe7fwsd5tsJYsR3ArvbsfxtJIvs5qYAK2emPsnGbak90tlrVKVv1ZiGK/C+le4uA9Q/q3zOhv6J9BLPij2HIM8WoWz0iw3u2paM6vGLUbAeirek7gW6ThaTW9niJbXCRn49+GiiVeFC+RGB1oi/x07w==",
     "signed_at": "2026-03-13T17:58:31Z",
+    "signed_by": "dgx-spark"
+  },
+  "attestation": {
+    "version": "1.0",
+    "method": "tpm2-rsassa-sha256",
+    "content_hash": "16855b21010834bfa8e5d6b21e2a91d509dd7aa94d3c211a2565b2fc44ad94c6",
+    "sig": "Y/fAOPzwYU3sFFy8ePqbgYHQRcx4GTaLg2t8fiItcyB6X3ZWtSwy2yVb9tUlsGTUjPMg/7RWgqQFsK9tdhTNGGHLfVmsxiMFvxfCdoCPnqzacMhOtPzyGw2SbpefdqyZ75OtSHiKfuNj9LWkh4/LXWlxs4YxRJEsCHkglZgVXD7ymEhUXK/q8xt5QaBKmtNjxchhMLGXAt9riC9Qncs81l6mIDr8qOdB5E6CsLE1HxDYbUU1rRW5x3lPndASvGudDbjHPVFR8nMZOuvmosS3McoGAlwj6c0gHxcjv0q7MB1uYaIrDbhXyAjoZZUG60V/3aWZ/50eWmC8272JYahDZQ==",
+    "signed_at": "2026-03-30T21:16:42Z",
     "signed_by": "dgx-spark"
   }
 }

@@ -7,7 +7,7 @@
   "total_events": 207,
   "total_frame_annotations": 66,
   "license_model": "price_on_request",
-  "license_note": "Pricing depends on intended use and buyer context. Submit a purchase request to receive a personalized offer.",
+  "license_note": "Pricing depends on intended use and buyer context. For automated purchase requests, POST filled purchase-request-template.json to https://srv-eu-01.tailaf3742.ts.net/purchase-request. Human fallback: GitHub Issue on the repository.",
   "sessions": [
     {
       "shooting_key": "q99.zd27q6.c92bhyf2v",
@@ -163,12 +163,20 @@
     "signed_by": "bio-logic-enter-dgx-spark",
     "verify": "https://bio-logic-enter.github.io/verify"
   },
-  "attestation": {
+  "attestation_v2": {
     "version": "1.0",
     "method": "tpm2-rsassa-sha256",
     "content_hash": "edb7f2e3a4cbc1227a1b3a766c314838c57471791f9c45ee118064f6ccb1c430",
     "sig": "aeHaMIhyX6MaSWad36OvED1pZwIkUj09kpetnTf1NScugXWPq1LBWkqJD+wBucksVfujYpsg5Umbu1D2pNm1laj4gjDGQ8u4wzqZQlJo4J754dM/vxVqBjnRacZJq38y5wPI7bXWQVUaE3WaNMd3xAorojklBp5I9Tr89b9i/i13YtUZPtzHp5FASph3J7hkdpEFcmuJZ15yK54INgR4otRZrD2e/vgLbW4f3qxW1FRde5kxzF/LlwARMAjqie2W8cA64+aNnw057fyznyeeyrS0f2jXU4S/1arFDdtK7SyH8J/iNv+dQK6tcJ6I0i3ISX2bu848IRoJOlykPESWuQ==",
     "signed_at": "2026-03-13T17:56:25Z",
+    "signed_by": "dgx-spark"
+  },
+  "attestation": {
+    "version": "1.0",
+    "method": "tpm2-rsassa-sha256",
+    "content_hash": "a06a6f2a5e5dab3f67656673dd5a68d159e3a83019f913dc62f7147878b31942",
+    "sig": "AgdynNFYbYe45IcHrby9CIuxSQeMmyuD3Mh/2MXHHQb5rFV/XmkIIhEOZyWxfjiCBfHXQPeyiA192okuqkfq8PBYDdaPsMeNRw5UbbQ5SAVy/erMtPst/SCaTwK2h6+eaDuiUTQdwfefEnUX07PsBQuFuLkp5XjsZRqoBqOna9SM37i6x5qkC9Yl8SWTb5QDkOg5CWW2ZUTJ3M2JDK4qR4ep4yADylnI3LcGJXWD7e5Oms0BPFeo2gb6KKPv81VFdyGmCfXhxplR2qcsi+CNRngrj7BDt5+g0he8aW1REB2Plm3paMSCZOyqnjnxhvPkYKNELdC+AIKYn91uTgi8Bw==",
+    "signed_at": "2026-03-30T21:14:12Z",
     "signed_by": "dgx-spark"
   }
 }

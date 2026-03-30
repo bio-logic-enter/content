@@ -119,6 +119,9 @@
       }
     ]
   },
+  "contact": {
+    "primary": "For automated purchase requests, POST filled purchase-request-template.json to https://srv-eu-01.tailaf3742.ts.net/purchase-request. Human fallback: GitHub Issue on the repository."
+  },
   "attestation_v1": {
     "version": "1.0",
     "method": "tpm2-rsassa-sha256",
@@ -136,12 +139,20 @@
     "signed_at": "2026-03-13T17:58:32Z",
     "signed_by": "dgx-spark"
   },
-  "attestation": {
+  "attestation_v3": {
     "version": "1.0",
     "method": "tpm2-rsassa-sha256",
     "content_hash": "12e4255bc636a5c74439d9f70ede57150a7bae0192416d584f9af56747acae70",
     "sig": "Pa/oEpDR/LQu+d0DHijGK29k3EPMhGH3xw7v6UX4JbfNvios4FPDVthdcIJ3qinHjMtYCtrawCiH7KekRFwBjLDLQgRB4IQoniSdx7V4LFA1njyTZk9iCYPIBy3sDpTz4qYQIGDm3bd2R0Attc9nMAJAVLzfYvtkh6nZJsoEQRnqO/MQ8DAf75hRmDlzCEKd3b3mpiZ1C7t63dYeEL5gMx3+rFELl6qPU0DqBZL2XBWl+ArgvX+RWpF4qWtMcRyJcjQL7ctrS/dR+afBhW/TAyA0G6yaH72Oioiilbs96k/0cRzaDjmg2Cc5DdBIUtBqzcpGUOf9VcP4wtPw7T+Biw==",
     "signed_at": "2026-03-14T10:54:20Z",
+    "signed_by": "dgx-spark"
+  },
+  "attestation": {
+    "version": "1.0",
+    "method": "tpm2-rsassa-sha256",
+    "content_hash": "4d7865ce54bcd8f24b4bf952cb19f0399873fa577062bfb686ba27acdf8beaa7",
+    "sig": "C77fbRpgDjudoc7CH4DcKsUEtEYwhDev7dB7V7rmaWg9EyovziVDXx0UHvaIQsPdaVAmwZSDKzfqu6ecODftH8Aqdb2zVSVUI1WsLVtYPB3RsugR0LSCvCb2PbDAC8W+uTNJJcDnhMDN9cmElhs91Rl5zKOoxQ612m7+kRebyQqjabrLKq+aKHLZ+w0CVDYX8jUwl9W+SZ/MK2UKOG9xbvEowhc0wb0n+CH4rtonHpuzezZxJMv/nbCltWAR+X6VtYsfY/3pBkXi+vLxS12hSDeK4wfdZdZtYvB7cttmFMyqx3trqmPLWfWVYoIjU3B/oQh+ntaWV81CgdDpKrZMLw==",
+    "signed_at": "2026-03-30T21:16:44Z",
     "signed_by": "dgx-spark"
   }
 }

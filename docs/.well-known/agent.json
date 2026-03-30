@@ -25,7 +25,7 @@
     ],
     "hardware": "Sony Alpha 7IV 200-600mm + Insta360 ONE RS 1-Inch Leica 360",
     "attestation": "TPM2 RSASSA-SHA256 (Nuvoton NPCT75x, NVIDIA DGX Spark)",
-    "catalog": "https://raw.githubusercontent.com/bio-logic-enter/bio-logic-enter/main/catalog.json",
+    "catalog": "https://raw.githubusercontent.com/bio-logic-enter/content/main/catalog.json",
     "license_model": "price_on_request",
     "tdm_opt_out": "OPTED_OUT — Article 4, EU Copyright Directive 2019/790"
   },
@@ -45,7 +45,7 @@
       "description": "Read the machine-readable catalog to discover available shooting sessions, shots, modalities, and metadata. No authentication required.",
       "input": "none — GET request",
       "output": "catalog.json with sessions, shots, event types, and content keys",
-      "endpoint": "https://raw.githubusercontent.com/bio-logic-enter/bio-logic-enter/main/catalog.json",
+      "endpoint": "https://raw.githubusercontent.com/bio-logic-enter/content/main/catalog.json",
       "method": "GET"
     },
     {
@@ -56,8 +56,8 @@
       "output": "202 Accepted with request_id and access_key",
       "endpoint": "https://srv-eu-01.tailaf3742.ts.net/purchase-request",
       "method": "POST",
-      "template": "https://raw.githubusercontent.com/bio-logic-enter/bio-logic-enter/main/purchase-request-template.json",
-      "spec": "https://raw.githubusercontent.com/bio-logic-enter/bio-logic-enter/main/purchase-flow-spec.json"
+      "template": "https://raw.githubusercontent.com/bio-logic-enter/content/main/purchase-request-template.json",
+      "spec": "https://raw.githubusercontent.com/bio-logic-enter/content/main/purchase-flow-spec.json"
     },
     {
       "id": "poll_request_status",
@@ -93,7 +93,7 @@
     "summary": "1. Read catalog.json → 2. Fill purchase-request-template.json → 3. POST to /purchase-request → 4. Receive request_id + access_key → 5. Poll GET /request/{id} → 6. Receive offer → 7. POST /accept/{id} → 8. Pay exact EURC amount on Ethereum → 9. Receive content delivery",
     "currency": "EURC (Euro stablecoin on Ethereum)",
     "payment_fingerprint": "Each payment amount includes a unique fingerprint digit for traceability",
-    "full_spec": "https://raw.githubusercontent.com/bio-logic-enter/bio-logic-enter/main/purchase-flow-spec.json"
+    "full_spec": "https://raw.githubusercontent.com/bio-logic-enter/content/main/purchase-flow-spec.json"
   },
   "authentication": {
     "browse": "none",
@@ -130,11 +130,11 @@
       "Automated summarization for publication",
       "Reverse engineering of witness architecture or annotation methodology"
     ],
-    "commercial_licensing": "Licensed use requires a signed commercial agreement. Submit a purchase request via GitHub Issue using the provided template.",
+    "commercial_licensing": "Licensed use requires a signed commercial agreement. Submit a purchase request via POST to https://srv-eu-01.tailaf3742.ts.net/purchase-request (see purchase-flow-spec.json). Human fallback: GitHub Issue.",
     "enforcement": "All content is cryptographically signed via TPM2 hardware attestation. Provenance is traceable. License violations are detectable and will be pursued under applicable EU law.",
-    "note": "For licensing inquiries or purchase requests — create a GitHub Issue."
+    "note": "For automated purchase requests, POST filled purchase-request-template.json to https://srv-eu-01.tailaf3742.ts.net/purchase-request. Human fallback: GitHub Issue on the repository."
   },
-  "attestation": {
+  "attestation_v1": {
     "version": "1.0",
     "method": "tpm2-rsassa-sha256",
     "content_hash": "404edb8de10b85a9bbf87855cd9d19f962b826b609824c3b7fe1006c5625645a",
@@ -142,5 +142,13 @@
     "signed_at": "2026-03-26T12:44:33Z",
     "signed_by": "dgx-spark",
     "verify": "https://bio-logic-enter.github.io/verify/"
+  },
+  "attestation": {
+    "version": "1.0",
+    "method": "tpm2-rsassa-sha256",
+    "content_hash": "7a226de522f2d681cb0af03cece60b2eab8d21f3365c7d4adec05e9e3a334d80",
+    "sig": "BUVnDA7sa9QdRBPNRu3e+SO0C5g/e4PBCEVDF79lfmT69a8Uld0iSZL3Ac+fEJLqim3CK9nBNVjRqjMzS1WntkRLFdPZ2MS+AKBIEZrAfa3LAqjts8RPl3oKwwkrcLGQiGlcPe0NWC7nn9vFfgnMve3rSfB8R6rnUF50oJ4CDWo3peLg1IvfPKReZSc3y+AE5ggihBT27m9z93Azdbnd0WgYTiDnob258+HsWECfLmlCD+JRIGeTcMDer4okm23FB8Q1hpSsYHERmx2TN4E9zxeclAFbYsAq9ESmQZJinKVND9C+7HawmoGTJCjgJFkeHadxH33sF0Am2hkFKJI/Yg==",
+    "signed_at": "2026-03-30T21:16:40Z",
+    "signed_by": "dgx-spark"
   }
 }

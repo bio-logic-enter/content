@@ -428,9 +428,9 @@
       "Automated summarization for publication",
       "Reverse engineering of witness architecture or annotation methodology"
     ],
-    "commercial_licensing": "Licensed use requires a signed commercial agreement. Submit a purchase request via GitHub Issue using the provided template.",
+    "commercial_licensing": "Licensed use requires a signed commercial agreement. Submit a purchase request via POST to https://srv-eu-01.tailaf3742.ts.net/purchase-request (see purchase-flow-spec.json). Human fallback: GitHub Issue.",
     "enforcement": "All content is cryptographically signed via TPM2 hardware attestation. Provenance is traceable. License violations are detectable and will be pursued under applicable EU law.",
-    "note": "For licensing inquiries or purchase requests — create a GitHub Issue."
+    "note": "For automated purchase requests, POST filled purchase-request-template.json to https://srv-eu-01.tailaf3742.ts.net/purchase-request. Human fallback: GitHub Issue on the repository."
   },
   "attestation_v2": {
     "version": "1.0",
@@ -440,7 +440,7 @@
     "signed_at": "2026-03-13T17:57:36Z",
     "signed_by": "dgx-spark"
   },
-  "attestation": {
+  "attestation_v3": {
     "version": "1.0",
     "method": "tpm2-rsassa-sha256",
     "content_hash": "8eb87fd65cc3ae4aec50a922a80159c24e03e8136c9745a49eab18d380de0f6e",
@@ -448,5 +448,13 @@
     "signed_at": "2026-03-21T21:17:01Z",
     "signed_by": "dgx-spark",
     "verify": "https://bio-logic-enter.github.io/verify/"
+  },
+  "attestation": {
+    "version": "1.0",
+    "method": "tpm2-rsassa-sha256",
+    "content_hash": "5324e4a4c583587a0cf4c14d134cb25fe4a746569902d6d6d9ddf33ae10c883a",
+    "sig": "YnHFrpxSmC9YThsuigVTKVOE3PY8mIp1Ig1EovsJDMjzFlaWZxoR4btZHPFTTs+t2QuJXhk22PuWi3NtGVV1nFQxL+FeqcFrScyjhgIP9jYaOwwkQKXEPfbSkxTq3Yk4rbs7C2cEml8fp1HicryxfHVBUNOcAOo5HzfBrtx8G9v5jIStM2sTgrM5rHmvQjGXQbcc/aDyomfy7Z/RoFbgBijJC1VJE6Ax9fWHOATSrFrEVZzRNHe41xOuWwNup79RdZw/jCPtXnT0a7rsrt0onoRBDqFNNlDbYJ3U/BzNLM56xAJtI15PpQ8mfD74JkBZoKziwNsm7dBtGCw9I2Rx2A==",
+    "signed_at": "2026-03-30T21:15:36Z",
+    "signed_by": "dgx-spark"
   }
 }

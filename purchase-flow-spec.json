@@ -390,12 +390,20 @@
     "signed_at": "2026-03-13T17:58:30Z",
     "signed_by": "dgx-spark"
   },
-  "attestation": {
+  "attestation_v3": {
     "version": "1.0",
     "method": "tpm2-rsassa-sha256",
     "content_hash": "6145bbd4d252a5fd213c21ec12fc2785850d04cf0c153b535328062abe8bbc5e",
     "sig": "4j4RVh1Eaipmc3ZI2lBYkpLV9j551BbdzrnCv5FxffvXjvnrDRV7Csde2dip/h/nXHsRkKvNOLyMk22dXWFH51SGlLAVJ6KcZaZwSYC1S/j1Hx+0l+brH1YRiroW+2+5NZp22EwRHIc0qEB4QnDwHpO62UdMCUIJhlJfkVLdbA4qJTMeIeurwIVL8XoE8UCcpuW8iz99GNbQnUn4npbzgmm+6nITQAAfbyh6FR85diYkI3SQr1bV2x1153l51uBe6Xww8pf+FhBjzZfueFQK8ux5csQCIA4UEJc6pa8F8qrX34MWgYhAcWaKEnyuWArKRGLoiy7UZeTURkrbO3CBzQ==",
     "signed_at": "2026-03-14T10:54:31Z",
+    "signed_by": "dgx-spark"
+  },
+  "attestation": {
+    "version": "1.0",
+    "method": "tpm2-rsassa-sha256",
+    "content_hash": "f661806f496d772fcd02cd396c1a047d1d558d718ecb5748173d6ec5acdd7a0b",
+    "sig": "cZKulWcPVPMSiIuBSC86smv1sdbN3RkSvaJVHS5JDiOWAtBnslNmXFC9p+kTE1Bm1gYM4EWgNlUt9HJ8RKagKSt7YoSVpzjimiU0uo9MSKFAFB2eRhIX4bOedhYF2bUl212RB3S1nAn3JsrCCDXPzheIMQnGg2AnLYHvog5gRL2Gwd5nuYw4Ymea8imgJeQowG5u3ihvz0vIm2BwKBbFjoyNWB8eyw2su7dMq8gfN6IVGtKGitkM/q3o/+UhcIxacNP/12OXIJAWYZezeqy0gZApBFLR6My7CDT+O61lJEZHwMDH0Jo0qLCssAu30P3wH3bHEtqbjjBRHT+PyrRm/A==",
+    "signed_at": "2026-03-30T21:16:42Z",
     "signed_by": "dgx-spark"
   }
 }
